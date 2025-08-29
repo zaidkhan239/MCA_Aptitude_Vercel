@@ -1,0 +1,6184 @@
+{
+  "questions": [
+    {
+      "id": "CODE-0027",
+      "type": "code",
+      "language": "python",
+      "difficulty": "hard",
+      "topic": "Variable shadow",
+      "code": "x = 5\ndef f():\n    x = 3\nf()\nprint(x)",
+      "expected_output": "5",
+      "explanation": "Expected output explained for Variable shadow in python.",
+      "options": [
+        "5",
+        "0",
+        "1",
+        "error"
+      ]
+    },
+    {
+      "id": "APT-0060",
+      "type": "aptitude",
+      "difficulty": "hard",
+      "topic": "Algebra",
+      "question": "Find the simple interest on ₹5000 at 7% per annum for 3 years.",
+      "options": [
+        "₹1050",
+        "₹1150",
+        "₹1100",
+        "₹1250"
+      ],
+      "answer": "₹1050",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0102",
+      "type": "aptitude",
+      "difficulty": "hard",
+      "topic": "Blood Relations",
+      "question": "A car covers 200 km at 40 km/h and returns at 50 km/h. What is the average speed for the whole trip? (rounded to 2 decimals if needed)",
+      "options": [
+        "44.44 km/h",
+        "46.44 km/h",
+        "43.44 km/h",
+        "41.44 km/h"
+      ],
+      "answer": "44.44 km/h",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "CODE-0016",
+      "type": "code",
+      "language": "python",
+      "difficulty": "hard",
+      "topic": "List multiply",
+      "code": "x = [1,2,3]\nprint(x*2)",
+      "expected_output": "[1, 2, 3, 1, 2, 3]",
+      "explanation": "Expected output explained for List multiply in python."
+    },
+    {
+      "id": "APT-0053",
+      "type": "aptitude",
+      "difficulty": "hard",
+      "topic": "Simple Interest",
+      "question": "Pipe A fills a tank in 12 h and B in 24 h. With a leakage that empties 60 of tank per hour, how long to fill?",
+      "options": [
+        "9.23 h",
+        "10 h",
+        "8.23 h",
+        "10.23 h"
+      ],
+      "answer": "9.23 h",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "CODE-0117",
+      "type": "code",
+      "language": "python",
+      "difficulty": "medium",
+      "topic": "Mutable default",
+      "code": "def append_to(x, lst=None):\n    if lst is None:\n        lst = []\n    lst.append(x)\n    return lst\nprint(append_to(1))\nprint(append_to(2))",
+      "expected_output": "[1]\n[2]",
+      "explanation": "Tricky python behavior."
+    },
+    {
+      "id": "APT-0021",
+      "type": "aptitude",
+      "difficulty": "easy",
+      "topic": "Puzzles",
+      "question": "Find the simple interest on ₹2000 at 4% per annum for 4 years.",
+      "options": [
+        "₹320",
+        "₹420",
+        "₹370",
+        "₹520"
+      ],
+      "answer": "₹320",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "CODE-0105",
+      "type": "code",
+      "language": "python",
+      "difficulty": "easy",
+      "topic": "Arithmetic",
+      "code": "a = 4\nb = 5\nprint(a + b)",
+      "expected_output": "9",
+      "explanation": "Simple addition.",
+      "options": [
+        "9",
+        "20",
+        "1",
+        "-1"
+      ]
+    },
+    {
+      "id": "APT-0206",
+      "type": "aptitude",
+      "difficulty": "easy",
+      "topic": "Profit & Loss",
+      "question": "Divide ₹900 in the ratio 2:3:5.",
+      "options": [
+        "₹180, ₹270, ₹450",
+        "₹600, ₹600, ₹600",
+        "₹700, ₹500, ₹600",
+        "₹900, ₹500, ₹400"
+      ],
+      "answer": "₹180, ₹270, ₹450",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0194",
+      "type": "aptitude",
+      "difficulty": "hard",
+      "topic": "Percentages",
+      "question": "A price increases from ₹400 to ₹500. What is the percentage increase?",
+      "options": [
+        "25%",
+        "27%",
+        "20%",
+        "15%"
+      ],
+      "answer": "25%",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "CODE-0050",
+      "type": "code",
+      "language": "c",
+      "difficulty": "medium",
+      "topic": "Operator",
+      "code": "#include <stdio.h>\nint main(){int a=3,b=4; printf(\"%d\", a + b * a - b); return 0;}",
+      "expected_output": "11",
+      "explanation": "Expected output explained for Operator in c.",
+      "options": [
+        "11",
+        "0",
+        "1",
+        "error"
+      ]
+    },
+    {
+      "id": "APT-0151",
+      "type": "aptitude",
+      "difficulty": "easy",
+      "topic": "Mixtures",
+      "question": "A price increases from ₹100 to ₹110. What is the percentage increase?",
+      "options": [
+        "10%",
+        "12%",
+        "5%",
+        "0%"
+      ],
+      "answer": "10%",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0164",
+      "type": "aptitude",
+      "difficulty": "medium",
+      "topic": "Geometry",
+      "question": "A price increases from ₹800 to ₹1040. What is the percentage increase?",
+      "options": [
+        "30%",
+        "32%",
+        "25%",
+        "20%"
+      ],
+      "answer": "30%",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "CODE-0006",
+      "type": "code",
+      "language": "python",
+      "difficulty": "hard",
+      "topic": "Loop & Scope",
+      "code": "x = 3\nfor x in range(2):\n    x += 1\nprint(x)",
+      "expected_output": "2",
+      "explanation": "Expected output explained for Loop & Scope in python.",
+      "options": [
+        "2",
+        "0",
+        "1",
+        "error"
+      ]
+    },
+    {
+      "id": "APT-0130",
+      "type": "aptitude",
+      "difficulty": "easy",
+      "topic": "Pipes & Cisterns",
+      "question": "Divide ₹1200 in the ratio 2:3:5.",
+      "options": [
+        "₹240, ₹360, ₹600",
+        "₹600, ₹600, ₹600",
+        "₹700, ₹500, ₹600",
+        "₹900, ₹500, ₹400"
+      ],
+      "answer": "₹240, ₹360, ₹600",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0253",
+      "type": "aptitude",
+      "difficulty": "easy",
+      "topic": "Logarithms",
+      "question": "A price increases from ₹1200 to ₹1380. What is the percentage increase?",
+      "options": [
+        "15%",
+        "17%",
+        "10%",
+        "5%"
+      ],
+      "answer": "15%",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "CODE-0108",
+      "type": "code",
+      "language": "python",
+      "difficulty": "easy",
+      "topic": "Arithmetic",
+      "code": "a = 3\nb = 1\nprint(a + b)",
+      "expected_output": "4",
+      "explanation": "Simple addition.",
+      "options": [
+        "4",
+        "3",
+        "2",
+        "2"
+      ]
+    },
+    {
+      "id": "CODE-0097",
+      "type": "code",
+      "language": "python",
+      "difficulty": "easy",
+      "topic": "Arithmetic",
+      "code": "a = 2\nb = 1\nprint(a + b)",
+      "expected_output": "3",
+      "explanation": "Simple addition.",
+      "options": [
+        "3",
+        "2",
+        "1",
+        "1"
+      ]
+    },
+    {
+      "id": "CODE-0119",
+      "type": "code",
+      "language": "python",
+      "difficulty": "medium",
+      "topic": "Map filter",
+      "code": "print(list(map(lambda x:x*2, [1,2,3])))",
+      "expected_output": "[2,4,6]",
+      "explanation": "Tricky python behavior."
+    },
+    {
+      "id": "APT-0119",
+      "type": "aptitude",
+      "difficulty": "easy",
+      "topic": "Numbers",
+      "question": "A 30 L mixture has milk and water in 3:2. How much water (in L) should be added to make it 2:1?",
+      "options": [
+        "2 L",
+        "3 L",
+        "4 L",
+        "5 L"
+      ],
+      "answer": "2 L",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0247",
+      "type": "aptitude",
+      "difficulty": "medium",
+      "topic": "Permutation & Combination",
+      "question": "A car covers 200 km at 80 km/h and returns at 50 km/h. What is the average speed for the whole trip? (rounded to 2 decimals if needed)",
+      "options": [
+        "61.54 km/h",
+        "63.54 km/h",
+        "60.54 km/h",
+        "58.54 km/h"
+      ],
+      "answer": "61.54 km/h",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0217",
+      "type": "aptitude",
+      "difficulty": "easy",
+      "topic": "Time Speed Distance",
+      "question": "Find the simple interest on ₹4000 at 6% per annum for 3 years.",
+      "options": [
+        "₹720",
+        "₹820",
+        "₹770",
+        "₹920"
+      ],
+      "answer": "₹720",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "CODE-0031",
+      "type": "code",
+      "language": "python",
+      "difficulty": "easy",
+      "topic": "Generator",
+      "code": "g = (i for i in range(3))\nprint(next(g))\nprint(next(g))",
+      "expected_output": "0\n1",
+      "explanation": "Expected output explained for Generator in python."
+    },
+    {
+      "id": "APT-0123",
+      "type": "aptitude",
+      "difficulty": "hard",
+      "topic": "Pipes & Cisterns",
+      "question": "Divide ₹1200 in the ratio 3:2:1.",
+      "options": [
+        "₹600, ₹400, ₹200",
+        "₹600, ₹600, ₹600",
+        "₹700, ₹500, ₹600",
+        "₹900, ₹500, ₹400"
+      ],
+      "answer": "₹600, ₹400, ₹200",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0066",
+      "type": "aptitude",
+      "difficulty": "medium",
+      "topic": "Mixtures",
+      "question": "Pipe A fills a tank in 12 h and B in 18 h. With a leakage that empties 36 of tank per hour, how long to fill?",
+      "options": [
+        "9.0 h",
+        "9 h",
+        "8.0 h",
+        "10.0 h"
+      ],
+      "answer": "9.0 h",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0220",
+      "type": "aptitude",
+      "difficulty": "easy",
+      "topic": "Logarithms",
+      "question": "Pipe A fills a tank in 12 h and B in 18 h. With a leakage that empties 48 of tank per hour, how long to fill?",
+      "options": [
+        "8.47 h",
+        "9 h",
+        "7.47 h",
+        "9.47 h"
+      ],
+      "answer": "8.47 h",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0214",
+      "type": "aptitude",
+      "difficulty": "hard",
+      "topic": "Permutation & Combination",
+      "question": "A car covers 200 km at 50 km/h and returns at 30 km/h. What is the average speed for the whole trip? (rounded to 2 decimals if needed)",
+      "options": [
+        "37.5 km/h",
+        "39.5 km/h",
+        "36.5 km/h",
+        "34.5 km/h"
+      ],
+      "answer": "37.5 km/h",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "CODE-0020",
+      "type": "code",
+      "language": "python",
+      "difficulty": "easy",
+      "topic": "Comprehension",
+      "code": "lst = [i*i for i in range(4)]\nprint(lst)",
+      "expected_output": "[0, 1, 4, 9]",
+      "explanation": "Expected output explained for Comprehension in python."
+    },
+    {
+      "id": "APT-0285",
+      "type": "aptitude",
+      "difficulty": "hard",
+      "topic": "Mixtures",
+      "question": "A 20 L mixture has milk and water in 3:2. How much water (in L) should be added to make it 3:2?",
+      "options": [
+        "6 L",
+        "7 L",
+        "8 L",
+        "9 L"
+      ],
+      "answer": "6 L",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0174",
+      "type": "aptitude",
+      "difficulty": "easy",
+      "topic": "Blood Relations",
+      "question": "Pipe A fills a tank in 15 h and B in 18 h. With a leakage that empties 48 of tank per hour, how long to fill?",
+      "options": [
+        "9.86 h",
+        "10 h",
+        "8.86 h",
+        "10.86 h"
+      ],
+      "answer": "9.86 h",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0213",
+      "type": "aptitude",
+      "difficulty": "easy",
+      "topic": "Logarithms",
+      "question": "A shopkeeper marks an item 25% above cost price ₹120 and gives 20% discount on MRP. What is the net profit or loss percentage?",
+      "options": [
+        "0%",
+        "5%",
+        "10%",
+        "-5%"
+      ],
+      "answer": "0%",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0173",
+      "type": "aptitude",
+      "difficulty": "hard",
+      "topic": "Clocks",
+      "question": "Find the simple interest on ₹4000 at 5% per annum for 3 years.",
+      "options": [
+        "₹600",
+        "₹700",
+        "₹650",
+        "₹800"
+      ],
+      "answer": "₹600",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0271",
+      "type": "aptitude",
+      "difficulty": "medium",
+      "topic": "Pipes & Cisterns",
+      "question": "Divide ₹1800 in the ratio 2:3:5.",
+      "options": [
+        "₹360, ₹540, ₹900",
+        "₹600, ₹600, ₹600",
+        "₹700, ₹500, ₹600",
+        "₹900, ₹500, ₹400"
+      ],
+      "answer": "₹360, ₹540, ₹900",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0189",
+      "type": "aptitude",
+      "difficulty": "hard",
+      "topic": "Time Speed Distance",
+      "question": "Pipe A fills a tank in 20 h and B in 24 h. With a leakage that empties 48 of tank per hour, how long to fill?",
+      "options": [
+        "14.12 h",
+        "15 h",
+        "13.12 h",
+        "15.12 h"
+      ],
+      "answer": "14.12 h",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0150",
+      "type": "aptitude",
+      "difficulty": "medium",
+      "topic": "Ages",
+      "question": "Pipe A fills a tank in 20 h and B in 30 h. With a leakage that empties 60 of tank per hour, how long to fill?",
+      "options": [
+        "15.0 h",
+        "15 h",
+        "14.0 h",
+        "16.0 h"
+      ],
+      "answer": "15.0 h",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "CODE-0107",
+      "type": "code",
+      "language": "python",
+      "difficulty": "easy",
+      "topic": "Arithmetic",
+      "code": "a = 1\nb = 4\nprint(a + b)",
+      "expected_output": "5",
+      "explanation": "Simple addition.",
+      "options": [
+        "5",
+        "4",
+        "3",
+        "-3"
+      ]
+    },
+    {
+      "id": "APT-0242",
+      "type": "aptitude",
+      "difficulty": "easy",
+      "topic": "Clocks",
+      "question": "Pipe A fills a tank in 15 h and B in 24 h. With a leakage that empties 48 of tank per hour, how long to fill?",
+      "options": [
+        "11.43 h",
+        "12 h",
+        "10.43 h",
+        "12.43 h"
+      ],
+      "answer": "11.43 h",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0133",
+      "type": "aptitude",
+      "difficulty": "easy",
+      "topic": "Numbers",
+      "question": "Divide ₹1800 in the ratio 3:2:1.",
+      "options": [
+        "₹900, ₹600, ₹300",
+        "₹600, ₹600, ₹600",
+        "₹700, ₹500, ₹600",
+        "₹900, ₹500, ₹400"
+      ],
+      "answer": "₹900, ₹600, ₹300",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0078",
+      "type": "aptitude",
+      "difficulty": "medium",
+      "topic": "Permutation & Combination",
+      "question": "A 30 L mixture has milk and water in 3:2. How much water (in L) should be added to make it 2:1?",
+      "options": [
+        "2 L",
+        "3 L",
+        "4 L",
+        "5 L"
+      ],
+      "answer": "2 L",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0039",
+      "type": "aptitude",
+      "difficulty": "hard",
+      "topic": "Series",
+      "question": "A price increases from ₹800 to ₹960. What is the percentage increase?",
+      "options": [
+        "20%",
+        "22%",
+        "15%",
+        "10%"
+      ],
+      "answer": "20%",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0038",
+      "type": "aptitude",
+      "difficulty": "easy",
+      "topic": "Clocks",
+      "question": "A 20 L mixture has milk and water in 5:4. How much water (in L) should be added to make it 3:2?",
+      "options": [
+        "2 L",
+        "3 L",
+        "4 L",
+        "5 L"
+      ],
+      "answer": "2 L",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "CODE-0024",
+      "type": "code",
+      "language": "python",
+      "difficulty": "medium",
+      "topic": "Comprehension",
+      "code": "lst = [i*i for i in range(4)]\nprint(lst)",
+      "expected_output": "[0, 1, 4, 9]",
+      "explanation": "Expected output explained for Comprehension in python."
+    },
+    {
+      "id": "APT-0282",
+      "type": "aptitude",
+      "difficulty": "easy",
+      "topic": "Mixtures",
+      "question": "Divide ₹900 in the ratio 4:3:2.",
+      "options": [
+        "₹400, ₹300, ₹200",
+        "₹600, ₹600, ₹600",
+        "₹700, ₹500, ₹600",
+        "₹900, ₹500, ₹400"
+      ],
+      "answer": "₹400, ₹300, ₹200",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0216",
+      "type": "aptitude",
+      "difficulty": "medium",
+      "topic": "Simple Interest",
+      "question": "Divide ₹1200 in the ratio 4:3:2.",
+      "options": [
+        "₹533, ₹400, ₹266",
+        "₹600, ₹600, ₹600",
+        "₹700, ₹500, ₹600",
+        "₹900, ₹500, ₹400"
+      ],
+      "answer": "₹533, ₹400, ₹266",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0179",
+      "type": "aptitude",
+      "difficulty": "hard",
+      "topic": "Profit & Loss",
+      "question": "A price increases from ₹1200 to ₹1320. What is the percentage increase?",
+      "options": [
+        "10%",
+        "12%",
+        "5%",
+        "0%"
+      ],
+      "answer": "10%",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0159",
+      "type": "aptitude",
+      "difficulty": "hard",
+      "topic": "Time Speed Distance",
+      "question": "Divide ₹1200 in the ratio 3:2:1.",
+      "options": [
+        "₹600, ₹400, ₹200",
+        "₹600, ₹600, ₹600",
+        "₹700, ₹500, ₹600",
+        "₹900, ₹500, ₹400"
+      ],
+      "answer": "₹600, ₹400, ₹200",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "CODE-0025",
+      "type": "code",
+      "language": "python",
+      "difficulty": "medium",
+      "topic": "Variable shadow",
+      "code": "x = 5\ndef f():\n    x = 3\nf()\nprint(x)",
+      "expected_output": "5",
+      "explanation": "Expected output explained for Variable shadow in python.",
+      "options": [
+        "5",
+        "0",
+        "1",
+        "error"
+      ]
+    },
+    {
+      "id": "CODE-0106",
+      "type": "code",
+      "language": "python",
+      "difficulty": "easy",
+      "topic": "Arithmetic",
+      "code": "a = 3\nb = 6\nprint(a + b)",
+      "expected_output": "9",
+      "explanation": "Simple addition.",
+      "options": [
+        "9",
+        "18",
+        "3",
+        "-3"
+      ]
+    },
+    {
+      "id": "APT-0268",
+      "type": "aptitude",
+      "difficulty": "medium",
+      "topic": "Time Speed Distance",
+      "question": "Divide ₹600 in the ratio 2:3:5.",
+      "options": [
+        "₹120, ₹180, ₹300",
+        "₹600, ₹600, ₹600",
+        "₹700, ₹500, ₹600",
+        "₹900, ₹500, ₹400"
+      ],
+      "answer": "₹120, ₹180, ₹300",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "CODE-0100",
+      "type": "code",
+      "language": "python",
+      "difficulty": "easy",
+      "topic": "Arithmetic",
+      "code": "a = 4\nb = 5\nprint(a + b)",
+      "expected_output": "9",
+      "explanation": "Simple addition.",
+      "options": [
+        "9",
+        "20",
+        "1",
+        "-1"
+      ]
+    },
+    {
+      "id": "APT-0296",
+      "type": "aptitude",
+      "difficulty": "hard",
+      "topic": "Mixtures",
+      "question": "The sum of ages of A and B is 30. If A is 3 times B, what is B's age?",
+      "options": [
+        "12",
+        "14",
+        "11",
+        "15"
+      ],
+      "answer": "12",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0045",
+      "type": "aptitude",
+      "difficulty": "hard",
+      "topic": "Series",
+      "question": "A car covers 120 km at 60 km/h and returns at 50 km/h. What is the average speed for the whole trip? (rounded to 2 decimals if needed)",
+      "options": [
+        "54.55 km/h",
+        "56.55 km/h",
+        "53.55 km/h",
+        "51.55 km/h"
+      ],
+      "answer": "54.55 km/h",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0022",
+      "type": "aptitude",
+      "difficulty": "medium",
+      "topic": "Pipes & Cisterns",
+      "question": "The sum of ages of A and B is 45. If A is 3 times B, what is B's age?",
+      "options": [
+        "18",
+        "20",
+        "17",
+        "21"
+      ],
+      "answer": "18",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0104",
+      "type": "aptitude",
+      "difficulty": "hard",
+      "topic": "Permutation & Combination",
+      "question": "A shopkeeper marks an item 25% above cost price ₹250 and gives 20% discount on MRP. What is the net profit or loss percentage?",
+      "options": [
+        "0%",
+        "5%",
+        "10%",
+        "-5%"
+      ],
+      "answer": "0%",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "CODE-0073",
+      "type": "code",
+      "language": "java",
+      "difficulty": "medium",
+      "topic": "String imm",
+      "code": "public class Main{ public static void main(String[] args){ String s=\"hi\"; s.concat(\"!\"); System.out.print(s); s = s + \"!\"; System.out.print(\" \" + s);} }",
+      "expected_output": "hi hi!",
+      "explanation": "Expected output explained for String imm in java.",
+      "options": [
+        "hi hi!",
+        "0",
+        "1",
+        "error"
+      ]
+    },
+    {
+      "id": "APT-0054",
+      "type": "aptitude",
+      "difficulty": "medium",
+      "topic": "Geometry",
+      "question": "The sum of ages of A and B is 54. If A is 2 times B, what is B's age?",
+      "options": [
+        "18",
+        "20",
+        "17",
+        "21"
+      ],
+      "answer": "18",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0001",
+      "type": "aptitude",
+      "difficulty": "hard",
+      "topic": "Data Interpretation",
+      "question": "Pipe A fills a tank in 15 h and B in 24 h. With a leakage that empties 48 of tank per hour, how long to fill?",
+      "options": [
+        "11.43 h",
+        "12 h",
+        "10.43 h",
+        "12.43 h"
+      ],
+      "answer": "11.43 h",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0287",
+      "type": "aptitude",
+      "difficulty": "easy",
+      "topic": "Ratio",
+      "question": "Find the simple interest on ₹4000 at 5% per annum for 4 years.",
+      "options": [
+        "₹800",
+        "₹900",
+        "₹850",
+        "₹1000"
+      ],
+      "answer": "₹800",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0154",
+      "type": "aptitude",
+      "difficulty": "medium",
+      "topic": "Ratio",
+      "question": "Find the simple interest on ₹4000 at 7% per annum for 3 years.",
+      "options": [
+        "₹840",
+        "₹940",
+        "₹890",
+        "₹1040"
+      ],
+      "answer": "₹840",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0103",
+      "type": "aptitude",
+      "difficulty": "easy",
+      "topic": "Mixtures",
+      "question": "The sum of ages of A and B is 60. If A is 5 times B, what is B's age?",
+      "options": [
+        "10",
+        "12",
+        "9",
+        "13"
+      ],
+      "answer": "10",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "CODE-0048",
+      "type": "code",
+      "language": "c",
+      "difficulty": "hard",
+      "topic": "Pre/Post",
+      "code": "#include <stdio.h>\nint main(){\n int a=5; printf(\"%d \", a++); printf(\"%d\", ++a); return 0; }",
+      "expected_output": "5 7",
+      "explanation": "Expected output explained for Pre/Post in c.",
+      "options": [
+        "5 7",
+        "0",
+        "1",
+        "error"
+      ]
+    },
+    {
+      "id": "CODE-0067",
+      "type": "code",
+      "language": "cpp",
+      "difficulty": "hard",
+      "topic": "Vector ref",
+      "code": "#include <bits/stdc++.h>\nusing namespace std;\nint main(){vector<int> v{1,2,3}; for(auto &x:v) x+=1; for(auto x:v) cout<<x; }",
+      "expected_output": "234",
+      "explanation": "Expected output explained for Vector ref in cpp.",
+      "options": [
+        "234",
+        "0",
+        "1",
+        "error"
+      ]
+    },
+    {
+      "id": "APT-0071",
+      "type": "aptitude",
+      "difficulty": "medium",
+      "topic": "Algebra",
+      "question": "A price increases from ₹250 to ₹275. What is the percentage increase?",
+      "options": [
+        "10%",
+        "12%",
+        "5%",
+        "0%"
+      ],
+      "answer": "10%",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "CODE-0056",
+      "type": "code",
+      "language": "c",
+      "difficulty": "easy",
+      "topic": "Sizeof",
+      "code": "#include <stdio.h>\nint main(){char s[] = \"hi\"; printf(\"%d\", sizeof(s)); return 0;}",
+      "expected_output": "3",
+      "explanation": "Expected output explained for Sizeof in c.",
+      "options": [
+        "3",
+        "0",
+        "1",
+        "error"
+      ]
+    },
+    {
+      "id": "APT-0083",
+      "type": "aptitude",
+      "difficulty": "hard",
+      "topic": "Pipes & Cisterns",
+      "question": "Pipe A fills a tank in 15 h and B in 24 h. With a leakage that empties 48 of tank per hour, how long to fill?",
+      "options": [
+        "11.43 h",
+        "12 h",
+        "10.43 h",
+        "12.43 h"
+      ],
+      "answer": "11.43 h",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0067",
+      "type": "aptitude",
+      "difficulty": "hard",
+      "topic": "Mixtures",
+      "question": "Find the simple interest on ₹3000 at 4% per annum for 4 years.",
+      "options": [
+        "₹480",
+        "₹580",
+        "₹530",
+        "₹680"
+      ],
+      "answer": "₹480",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0147",
+      "type": "aptitude",
+      "difficulty": "medium",
+      "topic": "Time Speed Distance",
+      "question": "A car covers 150 km at 40 km/h and returns at 50 km/h. What is the average speed for the whole trip? (rounded to 2 decimals if needed)",
+      "options": [
+        "44.44 km/h",
+        "46.44 km/h",
+        "43.44 km/h",
+        "41.44 km/h"
+      ],
+      "answer": "44.44 km/h",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0137",
+      "type": "aptitude",
+      "difficulty": "hard",
+      "topic": "Simple Interest",
+      "question": "The sum of ages of A and B is 54. If A is 5 times B, what is B's age?",
+      "options": [
+        "9",
+        "11",
+        "8",
+        "12"
+      ],
+      "answer": "9",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0023",
+      "type": "aptitude",
+      "difficulty": "hard",
+      "topic": "Mixtures",
+      "question": "Pipe A fills a tank in 15 h and B in 30 h. With a leakage that empties 36 of tank per hour, how long to fill?",
+      "options": [
+        "13.85 h",
+        "14 h",
+        "12.85 h",
+        "14.85 h"
+      ],
+      "answer": "13.85 h",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0092",
+      "type": "aptitude",
+      "difficulty": "medium",
+      "topic": "Permutation & Combination",
+      "question": "A shopkeeper marks an item 20% above cost price ₹100 and gives 15% discount on MRP. What is the net profit or loss percentage?",
+      "options": [
+        "2.0%",
+        "5%",
+        "10%",
+        "-5%"
+      ],
+      "answer": "2.0%",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0223",
+      "type": "aptitude",
+      "difficulty": "easy",
+      "topic": "Clocks",
+      "question": "A shopkeeper marks an item 20% above cost price ₹100 and gives 15% discount on MRP. What is the net profit or loss percentage?",
+      "options": [
+        "2.0%",
+        "5%",
+        "10%",
+        "-5%"
+      ],
+      "answer": "2.0%",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0259",
+      "type": "aptitude",
+      "difficulty": "medium",
+      "topic": "Numbers",
+      "question": "A car covers 150 km at 60 km/h and returns at 40 km/h. What is the average speed for the whole trip? (rounded to 2 decimals if needed)",
+      "options": [
+        "48.0 km/h",
+        "50.0 km/h",
+        "47.0 km/h",
+        "45.0 km/h"
+      ],
+      "answer": "48.0 km/h",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "CODE-0001",
+      "type": "code",
+      "language": "python",
+      "difficulty": "hard",
+      "topic": "Loop & Scope",
+      "code": "x = 3\nfor x in range(2):\n    x += 1\nprint(x)",
+      "expected_output": "2",
+      "explanation": "Expected output explained for Loop & Scope in python.",
+      "options": [
+        "2",
+        "0",
+        "1",
+        "error"
+      ]
+    },
+    {
+      "id": "APT-0175",
+      "type": "aptitude",
+      "difficulty": "hard",
+      "topic": "Blood Relations",
+      "question": "A car covers 60 km at 60 km/h and returns at 40 km/h. What is the average speed for the whole trip? (rounded to 2 decimals if needed)",
+      "options": [
+        "48.0 km/h",
+        "50.0 km/h",
+        "47.0 km/h",
+        "45.0 km/h"
+      ],
+      "answer": "48.0 km/h",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0077",
+      "type": "aptitude",
+      "difficulty": "medium",
+      "topic": "Time Speed Distance",
+      "question": "Find the simple interest on ₹4000 at 5% per annum for 4 years.",
+      "options": [
+        "₹800",
+        "₹900",
+        "₹850",
+        "₹1000"
+      ],
+      "answer": "₹800",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "CODE-0017",
+      "type": "code",
+      "language": "python",
+      "difficulty": "hard",
+      "topic": "List multiply",
+      "code": "x = [1,2,3]\nprint(x*2)",
+      "expected_output": "[1, 2, 3, 1, 2, 3]",
+      "explanation": "Expected output explained for List multiply in python."
+    },
+    {
+      "id": "APT-0134",
+      "type": "aptitude",
+      "difficulty": "hard",
+      "topic": "Series",
+      "question": "Pipe A fills a tank in 15 h and B in 18 h. With a leakage that empties 36 of tank per hour, how long to fill?",
+      "options": [
+        "10.59 h",
+        "11 h",
+        "9.59 h",
+        "11.59 h"
+      ],
+      "answer": "10.59 h",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0254",
+      "type": "aptitude",
+      "difficulty": "easy",
+      "topic": "Simple Interest",
+      "question": "A price increases from ₹400 to ₹480. What is the percentage increase?",
+      "options": [
+        "20%",
+        "22%",
+        "15%",
+        "10%"
+      ],
+      "answer": "20%",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0205",
+      "type": "aptitude",
+      "difficulty": "easy",
+      "topic": "Ratio",
+      "question": "Find the simple interest on ₹2000 at 4% per annum for 2 years.",
+      "options": [
+        "₹160",
+        "₹260",
+        "₹210",
+        "₹360"
+      ],
+      "answer": "₹160",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0227",
+      "type": "aptitude",
+      "difficulty": "medium",
+      "topic": "Pipes & Cisterns",
+      "question": "The sum of ages of A and B is 36. If A is 5 times B, what is B's age?",
+      "options": [
+        "16",
+        "18",
+        "15",
+        "19"
+      ],
+      "answer": "16",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "CODE-0028",
+      "type": "code",
+      "language": "python",
+      "difficulty": "easy",
+      "topic": "Variable shadow",
+      "code": "x = 5\ndef f():\n    x = 3\nf()\nprint(x)",
+      "expected_output": "5",
+      "explanation": "Expected output explained for Variable shadow in python.",
+      "options": [
+        "5",
+        "0",
+        "1",
+        "error"
+      ]
+    },
+    {
+      "id": "CODE-0053",
+      "type": "code",
+      "language": "c",
+      "difficulty": "easy",
+      "topic": "Operator",
+      "code": "#include <stdio.h>\nint main(){int a=3,b=4; printf(\"%d\", a + b * a - b); return 0;}",
+      "expected_output": "11",
+      "explanation": "Expected output explained for Operator in c.",
+      "options": [
+        "11",
+        "0",
+        "1",
+        "error"
+      ]
+    },
+    {
+      "id": "APT-0101",
+      "type": "aptitude",
+      "difficulty": "easy",
+      "topic": "Mixtures",
+      "question": "Pipe A fills a tank in 12 h and B in 30 h. With a leakage that empties 36 of tank per hour, how long to fill?",
+      "options": [
+        "11.25 h",
+        "12 h",
+        "10.25 h",
+        "12.25 h"
+      ],
+      "answer": "11.25 h",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0161",
+      "type": "aptitude",
+      "difficulty": "easy",
+      "topic": "Algebra",
+      "question": "A shopkeeper marks an item 20% above cost price ₹250 and gives 15% discount on MRP. What is the net profit or loss percentage?",
+      "options": [
+        "2.0%",
+        "5%",
+        "10%",
+        "-5%"
+      ],
+      "answer": "2.0%",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0009",
+      "type": "aptitude",
+      "difficulty": "medium",
+      "topic": "Percentages",
+      "question": "Pipe A fills a tank in 12 h and B in 24 h. With a leakage that empties 48 of tank per hour, how long to fill?",
+      "options": [
+        "9.6 h",
+        "10 h",
+        "8.6 h",
+        "10.6 h"
+      ],
+      "answer": "9.6 h",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0013",
+      "type": "aptitude",
+      "difficulty": "easy",
+      "topic": "Mixtures",
+      "question": "The sum of ages of A and B is 36. If A is 5 times B, what is B's age?",
+      "options": [
+        "11",
+        "13",
+        "10",
+        "14"
+      ],
+      "answer": "11",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "CODE-0012",
+      "type": "code",
+      "language": "python",
+      "difficulty": "hard",
+      "topic": "Mutable default",
+      "code": "def f(x, acc=[]):\n    acc.append(x)\n    return acc\nprint(f(1))\nprint(f(2, []))\nprint(f(3))",
+      "expected_output": "[1]\n[2]\n[1, 3]",
+      "explanation": "Expected output explained for Mutable default in python."
+    },
+    {
+      "id": "APT-0074",
+      "type": "aptitude",
+      "difficulty": "easy",
+      "topic": "Algebra",
+      "question": "Pipe A fills a tank in 12 h and B in 18 h. With a leakage that empties 60 of tank per hour, how long to fill?",
+      "options": [
+        "8.18 h",
+        "9 h",
+        "7.18 h",
+        "9.18 h"
+      ],
+      "answer": "8.18 h",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "CODE-0054",
+      "type": "code",
+      "language": "c",
+      "difficulty": "hard",
+      "topic": "Operator",
+      "code": "#include <stdio.h>\nint main(){int a=3,b=4; printf(\"%d\", a + b * a - b); return 0;}",
+      "expected_output": "11",
+      "explanation": "Expected output explained for Operator in c.",
+      "options": [
+        "11",
+        "0",
+        "1",
+        "error"
+      ]
+    },
+    {
+      "id": "APT-0232",
+      "type": "aptitude",
+      "difficulty": "easy",
+      "topic": "Simple Interest",
+      "question": "Pipe A fills a tank in 12 h and B in 30 h. With a leakage that empties 60 of tank per hour, how long to fill?",
+      "options": [
+        "10.0 h",
+        "10 h",
+        "9.0 h",
+        "11.0 h"
+      ],
+      "answer": "10.0 h",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0016",
+      "type": "aptitude",
+      "difficulty": "easy",
+      "topic": "Permutation & Combination",
+      "question": "Pipe A fills a tank in 15 h and B in 30 h. With a leakage that empties 36 of tank per hour, how long to fill?",
+      "options": [
+        "13.85 h",
+        "14 h",
+        "12.85 h",
+        "14.85 h"
+      ],
+      "answer": "13.85 h",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "CODE-0058",
+      "type": "code",
+      "language": "c",
+      "difficulty": "hard",
+      "topic": "Sizeof",
+      "code": "#include <stdio.h>\nint main(){char s[] = \"hi\"; printf(\"%d\", sizeof(s)); return 0;}",
+      "expected_output": "3",
+      "explanation": "Expected output explained for Sizeof in c.",
+      "options": [
+        "3",
+        "0",
+        "1",
+        "error"
+      ]
+    },
+    {
+      "id": "APT-0251",
+      "type": "aptitude",
+      "difficulty": "easy",
+      "topic": "Mixtures",
+      "question": "A car covers 150 km at 40 km/h and returns at 50 km/h. What is the average speed for the whole trip? (rounded to 2 decimals if needed)",
+      "options": [
+        "44.44 km/h",
+        "46.44 km/h",
+        "43.44 km/h",
+        "41.44 km/h"
+      ],
+      "answer": "44.44 km/h",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0185",
+      "type": "aptitude",
+      "difficulty": "hard",
+      "topic": "Probability",
+      "question": "The sum of ages of A and B is 30. If A is 2 times B, what is B's age?",
+      "options": [
+        "10",
+        "12",
+        "9",
+        "13"
+      ],
+      "answer": "10",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0281",
+      "type": "aptitude",
+      "difficulty": "hard",
+      "topic": "Probability",
+      "question": "Divide ₹1800 in the ratio 2:3:5.",
+      "options": [
+        "₹360, ₹540, ₹900",
+        "₹600, ₹600, ₹600",
+        "₹700, ₹500, ₹600",
+        "₹900, ₹500, ₹400"
+      ],
+      "answer": "₹360, ₹540, ₹900",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "CODE-0066",
+      "type": "code",
+      "language": "cpp",
+      "difficulty": "medium",
+      "topic": "Refs & Scope",
+      "code": "#include <bits/stdc++.h>\nusing namespace std;\nint main(){int x=10; int &r=x; r+=5; {int x=r; x+=5; cout<<x<<\" \";} cout<<x; }",
+      "expected_output": "20 15",
+      "explanation": "Expected output explained for Refs & Scope in cpp.",
+      "options": [
+        "20 15",
+        "0",
+        "1",
+        "error"
+      ]
+    },
+    {
+      "id": "APT-0276",
+      "type": "aptitude",
+      "difficulty": "medium",
+      "topic": "Pipes & Cisterns",
+      "question": "A shopkeeper marks an item 20% above cost price ₹500 and gives 15% discount on MRP. What is the net profit or loss percentage?",
+      "options": [
+        "2.0%",
+        "5%",
+        "10%",
+        "-5%"
+      ],
+      "answer": "2.0%",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0122",
+      "type": "aptitude",
+      "difficulty": "medium",
+      "topic": "Blood Relations",
+      "question": "Pipe A fills a tank in 12 h and B in 30 h. With a leakage that empties 60 of tank per hour, how long to fill?",
+      "options": [
+        "10.0 h",
+        "10 h",
+        "9.0 h",
+        "11.0 h"
+      ],
+      "answer": "10.0 h",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0233",
+      "type": "aptitude",
+      "difficulty": "hard",
+      "topic": "Probability",
+      "question": "Find the simple interest on ₹3000 at 6% per annum for 3 years.",
+      "options": [
+        "₹540",
+        "₹640",
+        "₹590",
+        "₹740"
+      ],
+      "answer": "₹540",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0124",
+      "type": "aptitude",
+      "difficulty": "hard",
+      "topic": "Simple Interest",
+      "question": "Find the simple interest on ₹5000 at 7% per annum for 3 years.",
+      "options": [
+        "₹1050",
+        "₹1150",
+        "₹1100",
+        "₹1250"
+      ],
+      "answer": "₹1050",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0055",
+      "type": "aptitude",
+      "difficulty": "easy",
+      "topic": "Profit & Loss",
+      "question": "Pipe A fills a tank in 15 h and B in 24 h. With a leakage that empties 60 of tank per hour, how long to fill?",
+      "options": [
+        "10.91 h",
+        "11 h",
+        "9.91 h",
+        "11.91 h"
+      ],
+      "answer": "10.91 h",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "CODE-0046",
+      "type": "code",
+      "language": "c",
+      "difficulty": "medium",
+      "topic": "Pre/Post",
+      "code": "#include <stdio.h>\nint main(){\n int a=5; printf(\"%d \", a++); printf(\"%d\", ++a); return 0; }",
+      "expected_output": "5 7",
+      "explanation": "Expected output explained for Pre/Post in c.",
+      "options": [
+        "5 7",
+        "0",
+        "1",
+        "error"
+      ]
+    },
+    {
+      "id": "APT-0118",
+      "type": "aptitude",
+      "difficulty": "easy",
+      "topic": "Profit & Loss",
+      "question": "A car covers 150 km at 40 km/h and returns at 40 km/h. What is the average speed for the whole trip? (rounded to 2 decimals if needed)",
+      "options": [
+        "40.0 km/h",
+        "42.0 km/h",
+        "39.0 km/h",
+        "37.0 km/h"
+      ],
+      "answer": "40.0 km/h",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "CODE-0003",
+      "type": "code",
+      "language": "python",
+      "difficulty": "hard",
+      "topic": "Loop & Scope",
+      "code": "x = 3\nfor x in range(2):\n    x += 1\nprint(x)",
+      "expected_output": "2",
+      "explanation": "Expected output explained for Loop & Scope in python.",
+      "options": [
+        "2",
+        "0",
+        "1",
+        "error"
+      ]
+    },
+    {
+      "id": "APT-0014",
+      "type": "aptitude",
+      "difficulty": "medium",
+      "topic": "Data Interpretation",
+      "question": "The sum of ages of A and B is 60. If A is 4 times B, what is B's age?",
+      "options": [
+        "26",
+        "28",
+        "25",
+        "29"
+      ],
+      "answer": "26",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0062",
+      "type": "aptitude",
+      "difficulty": "easy",
+      "topic": "Data Interpretation",
+      "question": "Divide ₹1800 in the ratio 2:3:5.",
+      "options": [
+        "₹360, ₹540, ₹900",
+        "₹600, ₹600, ₹600",
+        "₹700, ₹500, ₹600",
+        "₹900, ₹500, ₹400"
+      ],
+      "answer": "₹360, ₹540, ₹900",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0059",
+      "type": "aptitude",
+      "difficulty": "hard",
+      "topic": "Logical Reasoning",
+      "question": "A price increases from ₹100 to ₹115. What is the percentage increase?",
+      "options": [
+        "15%",
+        "17%",
+        "10%",
+        "5%"
+      ],
+      "answer": "15%",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "CODE-0041",
+      "type": "code",
+      "language": "python",
+      "difficulty": "hard",
+      "topic": "Tuple immut",
+      "code": "t = (1,2)\n# t[0]=3 -> error",
+      "expected_output": "TypeError",
+      "explanation": "Expected output explained for Tuple immut in python."
+    },
+    {
+      "id": "APT-0157",
+      "type": "aptitude",
+      "difficulty": "hard",
+      "topic": "Logical Reasoning",
+      "question": "A 20 L mixture has milk and water in 7:3. How much water (in L) should be added to make it 2:1?",
+      "options": [
+        "1 L",
+        "2 L",
+        "3 L",
+        "4 L"
+      ],
+      "answer": "1 L",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "CODE-0112",
+      "type": "code",
+      "language": "python",
+      "difficulty": "easy",
+      "topic": "Arithmetic",
+      "code": "a = 3\nb = 4\nprint(a + b)",
+      "expected_output": "7",
+      "explanation": "Simple addition.",
+      "options": [
+        "7",
+        "12",
+        "1",
+        "-1"
+      ]
+    },
+    {
+      "id": "APT-0187",
+      "type": "aptitude",
+      "difficulty": "medium",
+      "topic": "Ages",
+      "question": "Find the simple interest on ₹5000 at 4% per annum for 3 years.",
+      "options": [
+        "₹600",
+        "₹700",
+        "₹650",
+        "₹800"
+      ],
+      "answer": "₹600",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "CODE-0055",
+      "type": "code",
+      "language": "c",
+      "difficulty": "easy",
+      "topic": "Sizeof",
+      "code": "#include <stdio.h>\nint main(){char s[] = \"hi\"; printf(\"%d\", sizeof(s)); return 0;}",
+      "expected_output": "3",
+      "explanation": "Expected output explained for Sizeof in c.",
+      "options": [
+        "3",
+        "0",
+        "1",
+        "error"
+      ]
+    },
+    {
+      "id": "APT-0256",
+      "type": "aptitude",
+      "difficulty": "easy",
+      "topic": "Clocks",
+      "question": "Divide ₹1800 in the ratio 3:2:1.",
+      "options": [
+        "₹900, ₹600, ₹300",
+        "₹600, ₹600, ₹600",
+        "₹700, ₹500, ₹600",
+        "₹900, ₹500, ₹400"
+      ],
+      "answer": "₹900, ₹600, ₹300",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0033",
+      "type": "aptitude",
+      "difficulty": "hard",
+      "topic": "Probability",
+      "question": "The sum of ages of A and B is 60. If A is 3 times B, what is B's age?",
+      "options": [
+        "24",
+        "26",
+        "23",
+        "27"
+      ],
+      "answer": "24",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0006",
+      "type": "aptitude",
+      "difficulty": "medium",
+      "topic": "Numbers",
+      "question": "The sum of ages of A and B is 36. If A is 4 times B, what is B's age?",
+      "options": [
+        "12",
+        "14",
+        "11",
+        "15"
+      ],
+      "answer": "12",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "CODE-0113",
+      "type": "code",
+      "language": "python",
+      "difficulty": "easy",
+      "topic": "Arithmetic",
+      "code": "a = 4\nb = 5\nprint(a + b)",
+      "expected_output": "9",
+      "explanation": "Simple addition.",
+      "options": [
+        "9",
+        "20",
+        "1",
+        "-1"
+      ]
+    },
+    {
+      "id": "APT-0072",
+      "type": "aptitude",
+      "difficulty": "hard",
+      "topic": "Pipes & Cisterns",
+      "question": "A car covers 150 km at 50 km/h and returns at 50 km/h. What is the average speed for the whole trip? (rounded to 2 decimals if needed)",
+      "options": [
+        "50.0 km/h",
+        "52.0 km/h",
+        "49.0 km/h",
+        "47.0 km/h"
+      ],
+      "answer": "50.0 km/h",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0283",
+      "type": "aptitude",
+      "difficulty": "hard",
+      "topic": "Syllogism",
+      "question": "A price increases from ₹800 to ₹960. What is the percentage increase?",
+      "options": [
+        "20%",
+        "22%",
+        "15%",
+        "10%"
+      ],
+      "answer": "20%",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0184",
+      "type": "aptitude",
+      "difficulty": "medium",
+      "topic": "Puzzles",
+      "question": "A car covers 120 km at 50 km/h and returns at 40 km/h. What is the average speed for the whole trip? (rounded to 2 decimals if needed)",
+      "options": [
+        "44.44 km/h",
+        "46.44 km/h",
+        "43.44 km/h",
+        "41.44 km/h"
+      ],
+      "answer": "44.44 km/h",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0192",
+      "type": "aptitude",
+      "difficulty": "easy",
+      "topic": "Series",
+      "question": "A shopkeeper marks an item 25% above cost price ₹120 and gives 20% discount on MRP. What is the net profit or loss percentage?",
+      "options": [
+        "0%",
+        "5%",
+        "10%",
+        "-5%"
+      ],
+      "answer": "0%",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "CODE-0018",
+      "type": "code",
+      "language": "python",
+      "difficulty": "easy",
+      "topic": "List multiply",
+      "code": "x = [1,2,3]\nprint(x*2)",
+      "expected_output": "[1, 2, 3, 1, 2, 3]",
+      "explanation": "Expected output explained for List multiply in python."
+    },
+    {
+      "id": "CODE-0092",
+      "type": "code",
+      "language": "js",
+      "difficulty": "medium",
+      "topic": "Closure",
+      "code": "function make(){ var x=0; return function(){ x++; return x;} } var f=make(); console.log(f()); console.log(f());",
+      "expected_output": "1\n2",
+      "explanation": "Expected output explained for Closure in js."
+    },
+    {
+      "id": "APT-0207",
+      "type": "aptitude",
+      "difficulty": "hard",
+      "topic": "Pipes & Cisterns",
+      "question": "Divide ₹600 in the ratio 3:2:1.",
+      "options": [
+        "₹300, ₹200, ₹100",
+        "₹600, ₹600, ₹600",
+        "₹700, ₹500, ₹600",
+        "₹900, ₹500, ₹400"
+      ],
+      "answer": "₹300, ₹200, ₹100",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0229",
+      "type": "aptitude",
+      "difficulty": "hard",
+      "topic": "Series",
+      "question": "A car covers 120 km at 60 km/h and returns at 30 km/h. What is the average speed for the whole trip? (rounded to 2 decimals if needed)",
+      "options": [
+        "40.0 km/h",
+        "42.0 km/h",
+        "39.0 km/h",
+        "37.0 km/h"
+      ],
+      "answer": "40.0 km/h",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0089",
+      "type": "aptitude",
+      "difficulty": "hard",
+      "topic": "Simple Interest",
+      "question": "Divide ₹1800 in the ratio 3:2:1.",
+      "options": [
+        "₹900, ₹600, ₹300",
+        "₹600, ₹600, ₹600",
+        "₹700, ₹500, ₹600",
+        "₹900, ₹500, ₹400"
+      ],
+      "answer": "₹900, ₹600, ₹300",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0215",
+      "type": "aptitude",
+      "difficulty": "easy",
+      "topic": "Syllogism",
+      "question": "A car covers 200 km at 60 km/h and returns at 50 km/h. What is the average speed for the whole trip? (rounded to 2 decimals if needed)",
+      "options": [
+        "54.55 km/h",
+        "56.55 km/h",
+        "53.55 km/h",
+        "51.55 km/h"
+      ],
+      "answer": "54.55 km/h",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0097",
+      "type": "aptitude",
+      "difficulty": "hard",
+      "topic": "Mixtures",
+      "question": "A 50 L mixture has milk and water in 3:2. How much water (in L) should be added to make it 2:1?",
+      "options": [
+        "4 L",
+        "5 L",
+        "6 L",
+        "7 L"
+      ],
+      "answer": "4 L",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0202",
+      "type": "aptitude",
+      "difficulty": "medium",
+      "topic": "Data Interpretation",
+      "question": "A price increases from ₹500 to ₹650. What is the percentage increase?",
+      "options": [
+        "30%",
+        "32%",
+        "25%",
+        "20%"
+      ],
+      "answer": "30%",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0093",
+      "type": "aptitude",
+      "difficulty": "easy",
+      "topic": "Percentages",
+      "question": "Find the simple interest on ₹5000 at 4% per annum for 3 years.",
+      "options": [
+        "₹600",
+        "₹700",
+        "₹650",
+        "₹800"
+      ],
+      "answer": "₹600",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "CODE-0035",
+      "type": "code",
+      "language": "python",
+      "difficulty": "hard",
+      "topic": "Generator",
+      "code": "g = (i for i in range(3))\nprint(next(g))\nprint(next(g))",
+      "expected_output": "0\n1",
+      "explanation": "Expected output explained for Generator in python."
+    },
+    {
+      "id": "APT-0278",
+      "type": "aptitude",
+      "difficulty": "medium",
+      "topic": "Probability",
+      "question": "Find the simple interest on ₹2000 at 5% per annum for 2 years.",
+      "options": [
+        "₹200",
+        "₹300",
+        "₹250",
+        "₹400"
+      ],
+      "answer": "₹200",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0261",
+      "type": "aptitude",
+      "difficulty": "hard",
+      "topic": "Pipes & Cisterns",
+      "question": "A shopkeeper marks an item 20% above cost price ₹80 and gives 15% discount on MRP. What is the net profit or loss percentage?",
+      "options": [
+        "2.0%",
+        "5%",
+        "10%",
+        "-5%"
+      ],
+      "answer": "2.0%",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0057",
+      "type": "aptitude",
+      "difficulty": "hard",
+      "topic": "Syllogism",
+      "question": "Pipe A fills a tank in 12 h and B in 18 h. With a leakage that empties 36 of tank per hour, how long to fill?",
+      "options": [
+        "9.0 h",
+        "9 h",
+        "8.0 h",
+        "10.0 h"
+      ],
+      "answer": "9.0 h",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0114",
+      "type": "aptitude",
+      "difficulty": "hard",
+      "topic": "Numbers",
+      "question": "A shopkeeper marks an item 20% above cost price ₹500 and gives 15% discount on MRP. What is the net profit or loss percentage?",
+      "options": [
+        "2.0%",
+        "5%",
+        "10%",
+        "-5%"
+      ],
+      "answer": "2.0%",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "CODE-0039",
+      "type": "code",
+      "language": "python",
+      "difficulty": "easy",
+      "topic": "Tuple immut",
+      "code": "t = (1,2)\n# t[0]=3 -> error",
+      "expected_output": "TypeError",
+      "explanation": "Expected output explained for Tuple immut in python."
+    },
+    {
+      "id": "APT-0098",
+      "type": "aptitude",
+      "difficulty": "easy",
+      "topic": "Mixtures",
+      "question": "Divide ₹1800 in the ratio 2:3:5.",
+      "options": [
+        "₹360, ₹540, ₹900",
+        "₹600, ₹600, ₹600",
+        "₹700, ₹500, ₹600",
+        "₹900, ₹500, ₹400"
+      ],
+      "answer": "₹360, ₹540, ₹900",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0144",
+      "type": "aptitude",
+      "difficulty": "medium",
+      "topic": "Geometry",
+      "question": "A 40 L mixture has milk and water in 5:4. How much water (in L) should be added to make it 3:2?",
+      "options": [
+        "4 L",
+        "5 L",
+        "6 L",
+        "7 L"
+      ],
+      "answer": "4 L",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0201",
+      "type": "aptitude",
+      "difficulty": "hard",
+      "topic": "Permutation & Combination",
+      "question": "The sum of ages of A and B is 54. If A is 2 times B, what is B's age?",
+      "options": [
+        "18",
+        "20",
+        "17",
+        "21"
+      ],
+      "answer": "18",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "CODE-0042",
+      "type": "code",
+      "language": "python",
+      "difficulty": "easy",
+      "topic": "Tuple immut",
+      "code": "t = (1,2)\n# t[0]=3 -> error",
+      "expected_output": "TypeError",
+      "explanation": "Expected output explained for Tuple immut in python."
+    },
+    {
+      "id": "APT-0248",
+      "type": "aptitude",
+      "difficulty": "easy",
+      "topic": "Mixtures",
+      "question": "A car covers 200 km at 60 km/h and returns at 50 km/h. What is the average speed for the whole trip? (rounded to 2 decimals if needed)",
+      "options": [
+        "54.55 km/h",
+        "56.55 km/h",
+        "53.55 km/h",
+        "51.55 km/h"
+      ],
+      "answer": "54.55 km/h",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0108",
+      "type": "aptitude",
+      "difficulty": "easy",
+      "topic": "Ages",
+      "question": "A price increases from ₹1200 to ₹1320. What is the percentage increase?",
+      "options": [
+        "10%",
+        "12%",
+        "5%",
+        "0%"
+      ],
+      "answer": "10%",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "CODE-0074",
+      "type": "code",
+      "language": "java",
+      "difficulty": "hard",
+      "topic": "String imm",
+      "code": "public class Main{ public static void main(String[] args){ String s=\"hi\"; s.concat(\"!\"); System.out.print(s); s = s + \"!\"; System.out.print(\" \" + s);} }",
+      "expected_output": "hi hi!",
+      "explanation": "Expected output explained for String imm in java.",
+      "options": [
+        "hi hi!",
+        "0",
+        "1",
+        "error"
+      ]
+    },
+    {
+      "id": "APT-0172",
+      "type": "aptitude",
+      "difficulty": "medium",
+      "topic": "Geometry",
+      "question": "A price increases from ₹250 to ₹275. What is the percentage increase?",
+      "options": [
+        "10%",
+        "12%",
+        "5%",
+        "0%"
+      ],
+      "answer": "10%",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0004",
+      "type": "aptitude",
+      "difficulty": "hard",
+      "topic": "Syllogism",
+      "question": "The sum of ages of A and B is 54. If A is 4 times B, what is B's age?",
+      "options": [
+        "11",
+        "13",
+        "10",
+        "14"
+      ],
+      "answer": "11",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "CODE-0026",
+      "type": "code",
+      "language": "python",
+      "difficulty": "easy",
+      "topic": "Variable shadow",
+      "code": "x = 5\ndef f():\n    x = 3\nf()\nprint(x)",
+      "expected_output": "5",
+      "explanation": "Expected output explained for Variable shadow in python.",
+      "options": [
+        "5",
+        "0",
+        "1",
+        "error"
+      ]
+    },
+    {
+      "id": "APT-0244",
+      "type": "aptitude",
+      "difficulty": "easy",
+      "topic": "Numbers",
+      "question": "Pipe A fills a tank in 12 h and B in 24 h. With a leakage that empties 36 of tank per hour, how long to fill?",
+      "options": [
+        "10.29 h",
+        "11 h",
+        "9.29 h",
+        "11.29 h"
+      ],
+      "answer": "10.29 h",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0280",
+      "type": "aptitude",
+      "difficulty": "medium",
+      "topic": "Simple Interest",
+      "question": "A price increases from ₹400 to ₹460. What is the percentage increase?",
+      "options": [
+        "15%",
+        "17%",
+        "10%",
+        "5%"
+      ],
+      "answer": "15%",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0284",
+      "type": "aptitude",
+      "difficulty": "medium",
+      "topic": "Mixtures",
+      "question": "The sum of ages of A and B is 45. If A is 2 times B, what is B's age?",
+      "options": [
+        "15",
+        "17",
+        "14",
+        "18"
+      ],
+      "answer": "15",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0120",
+      "type": "aptitude",
+      "difficulty": "hard",
+      "topic": "Logarithms",
+      "question": "The sum of ages of A and B is 30. If A is 3 times B, what is B's age?",
+      "options": [
+        "12",
+        "14",
+        "11",
+        "15"
+      ],
+      "answer": "12",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0298",
+      "type": "aptitude",
+      "difficulty": "easy",
+      "topic": "Data Interpretation",
+      "question": "The sum of ages of A and B is 36. If A is 5 times B, what is B's age?",
+      "options": [
+        "11",
+        "13",
+        "10",
+        "14"
+      ],
+      "answer": "11",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0138",
+      "type": "aptitude",
+      "difficulty": "hard",
+      "topic": "Algebra",
+      "question": "The sum of ages of A and B is 54. If A is 3 times B, what is B's age?",
+      "options": [
+        "14",
+        "16",
+        "13",
+        "17"
+      ],
+      "answer": "14",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0015",
+      "type": "aptitude",
+      "difficulty": "hard",
+      "topic": "Percentages",
+      "question": "The sum of ages of A and B is 60. If A is 5 times B, what is B's age?",
+      "options": [
+        "23",
+        "25",
+        "22",
+        "26"
+      ],
+      "answer": "23",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0127",
+      "type": "aptitude",
+      "difficulty": "easy",
+      "topic": "Time Speed Distance",
+      "question": "Find the simple interest on ₹4000 at 5% per annum for 2 years.",
+      "options": [
+        "₹400",
+        "₹500",
+        "₹450",
+        "₹600"
+      ],
+      "answer": "₹400",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0221",
+      "type": "aptitude",
+      "difficulty": "hard",
+      "topic": "Time Speed Distance",
+      "question": "A car covers 200 km at 50 km/h and returns at 30 km/h. What is the average speed for the whole trip? (rounded to 2 decimals if needed)",
+      "options": [
+        "37.5 km/h",
+        "39.5 km/h",
+        "36.5 km/h",
+        "34.5 km/h"
+      ],
+      "answer": "37.5 km/h",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0156",
+      "type": "aptitude",
+      "difficulty": "easy",
+      "topic": "Percentages",
+      "question": "A 40 L mixture has milk and water in 7:3. How much water (in L) should be added to make it 4:3?",
+      "options": [
+        "9 L",
+        "10 L",
+        "11 L",
+        "12 L"
+      ],
+      "answer": "9 L",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0252",
+      "type": "aptitude",
+      "difficulty": "hard",
+      "topic": "Profit & Loss",
+      "question": "The sum of ages of A and B is 54. If A is 3 times B, what is B's age?",
+      "options": [
+        "22",
+        "24",
+        "21",
+        "25"
+      ],
+      "answer": "22",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0046",
+      "type": "aptitude",
+      "difficulty": "medium",
+      "topic": "Data Interpretation",
+      "question": "A price increases from ₹1200 to ₹1344. What is the percentage increase?",
+      "options": [
+        "12%",
+        "14%",
+        "7%",
+        "2%"
+      ],
+      "answer": "12%",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0293",
+      "type": "aptitude",
+      "difficulty": "hard",
+      "topic": "Logical Reasoning",
+      "question": "Find the simple interest on ₹4000 at 6% per annum for 4 years.",
+      "options": [
+        "₹960",
+        "₹1060",
+        "₹1010",
+        "₹1160"
+      ],
+      "answer": "₹960",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0235",
+      "type": "aptitude",
+      "difficulty": "medium",
+      "topic": "Time Speed Distance",
+      "question": "Pipe A fills a tank in 12 h and B in 24 h. With a leakage that empties 36 of tank per hour, how long to fill?",
+      "options": [
+        "10.29 h",
+        "11 h",
+        "9.29 h",
+        "11.29 h"
+      ],
+      "answer": "10.29 h",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0070",
+      "type": "aptitude",
+      "difficulty": "medium",
+      "topic": "Ratio",
+      "question": "A car covers 60 km at 80 km/h and returns at 30 km/h. What is the average speed for the whole trip? (rounded to 2 decimals if needed)",
+      "options": [
+        "43.64 km/h",
+        "45.64 km/h",
+        "42.64 km/h",
+        "40.64 km/h"
+      ],
+      "answer": "43.64 km/h",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0034",
+      "type": "aptitude",
+      "difficulty": "hard",
+      "topic": "Profit & Loss",
+      "question": "The sum of ages of A and B is 30. If A is 5 times B, what is B's age?",
+      "options": [
+        "12",
+        "14",
+        "11",
+        "15"
+      ],
+      "answer": "12",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0152",
+      "type": "aptitude",
+      "difficulty": "easy",
+      "topic": "Time Speed Distance",
+      "question": "A car covers 120 km at 80 km/h and returns at 40 km/h. What is the average speed for the whole trip? (rounded to 2 decimals if needed)",
+      "options": [
+        "53.33 km/h",
+        "55.33 km/h",
+        "52.33 km/h",
+        "50.33 km/h"
+      ],
+      "answer": "53.33 km/h",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0140",
+      "type": "aptitude",
+      "difficulty": "easy",
+      "topic": "Simple Interest",
+      "question": "Find the simple interest on ₹2000 at 5% per annum for 4 years.",
+      "options": [
+        "₹400",
+        "₹500",
+        "₹450",
+        "₹600"
+      ],
+      "answer": "₹400",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "CODE-0093",
+      "type": "code",
+      "language": "js",
+      "difficulty": "medium",
+      "topic": "Closure",
+      "code": "function make(){ var x=0; return function(){ x++; return x;} } var f=make(); console.log(f()); console.log(f());",
+      "expected_output": "1\n2",
+      "explanation": "Expected output explained for Closure in js."
+    },
+    {
+      "id": "CODE-0021",
+      "type": "code",
+      "language": "python",
+      "difficulty": "hard",
+      "topic": "Comprehension",
+      "code": "lst = [i*i for i in range(4)]\nprint(lst)",
+      "expected_output": "[0, 1, 4, 9]",
+      "explanation": "Expected output explained for Comprehension in python."
+    },
+    {
+      "id": "APT-0167",
+      "type": "aptitude",
+      "difficulty": "medium",
+      "topic": "Geometry",
+      "question": "A price increases from ₹100 to ₹130. What is the percentage increase?",
+      "options": [
+        "30%",
+        "32%",
+        "25%",
+        "20%"
+      ],
+      "answer": "30%",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "CODE-0099",
+      "type": "code",
+      "language": "python",
+      "difficulty": "easy",
+      "topic": "Arithmetic",
+      "code": "a = 5\nb = 2\nprint(a + b)",
+      "expected_output": "7",
+      "explanation": "Simple addition.",
+      "options": [
+        "7",
+        "10",
+        "3",
+        "3"
+      ]
+    },
+    {
+      "id": "APT-0037",
+      "type": "aptitude",
+      "difficulty": "medium",
+      "topic": "Profit & Loss",
+      "question": "The sum of ages of A and B is 54. If A is 2 times B, what is B's age?",
+      "options": [
+        "18",
+        "20",
+        "17",
+        "21"
+      ],
+      "answer": "18",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "CODE-0087",
+      "type": "code",
+      "language": "js",
+      "difficulty": "easy",
+      "topic": "Hoisting",
+      "code": "console.log(a); var a = 5; // ?",
+      "expected_output": "undefined",
+      "explanation": "Expected output explained for Hoisting in js.",
+      "options": [
+        "undefined",
+        "0",
+        "1",
+        "error"
+      ]
+    },
+    {
+      "id": "CODE-0098",
+      "type": "code",
+      "language": "python",
+      "difficulty": "easy",
+      "topic": "Arithmetic",
+      "code": "a = 5\nb = 4\nprint(a + b)",
+      "expected_output": "9",
+      "explanation": "Simple addition.",
+      "options": [
+        "9",
+        "20",
+        "1",
+        "1"
+      ]
+    },
+    {
+      "id": "APT-0035",
+      "type": "aptitude",
+      "difficulty": "hard",
+      "topic": "Ratio",
+      "question": "The sum of ages of A and B is 54. If A is 3 times B, what is B's age?",
+      "options": [
+        "14",
+        "16",
+        "13",
+        "17"
+      ],
+      "answer": "14",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0003",
+      "type": "aptitude",
+      "difficulty": "medium",
+      "topic": "Puzzles",
+      "question": "The sum of ages of A and B is 60. If A is 2 times B, what is B's age?",
+      "options": [
+        "20",
+        "22",
+        "19",
+        "23"
+      ],
+      "answer": "20",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0112",
+      "type": "aptitude",
+      "difficulty": "medium",
+      "topic": "Time Speed Distance",
+      "question": "Divide ₹900 in the ratio 2:3:5.",
+      "options": [
+        "₹180, ₹270, ₹450",
+        "₹600, ₹600, ₹600",
+        "₹700, ₹500, ₹600",
+        "₹900, ₹500, ₹400"
+      ],
+      "answer": "₹180, ₹270, ₹450",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0153",
+      "type": "aptitude",
+      "difficulty": "hard",
+      "topic": "Numbers",
+      "question": "A 40 L mixture has milk and water in 7:3. How much water (in L) should be added to make it 2:1?",
+      "options": [
+        "2 L",
+        "3 L",
+        "4 L",
+        "5 L"
+      ],
+      "answer": "2 L",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0199",
+      "type": "aptitude",
+      "difficulty": "medium",
+      "topic": "Simple Interest",
+      "question": "The sum of ages of A and B is 60. If A is 5 times B, what is B's age?",
+      "options": [
+        "10",
+        "12",
+        "9",
+        "13"
+      ],
+      "answer": "10",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0106",
+      "type": "aptitude",
+      "difficulty": "hard",
+      "topic": "Ages",
+      "question": "A 40 L mixture has milk and water in 5:4. How much water (in L) should be added to make it 3:2?",
+      "options": [
+        "10 L",
+        "11 L",
+        "12 L",
+        "13 L"
+      ],
+      "answer": "10 L",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0245",
+      "type": "aptitude",
+      "difficulty": "easy",
+      "topic": "Ages",
+      "question": "A 40 L mixture has milk and water in 5:4. How much water (in L) should be added to make it 4:3?",
+      "options": [
+        "4 L",
+        "5 L",
+        "6 L",
+        "7 L"
+      ],
+      "answer": "4 L",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "CODE-0064",
+      "type": "code",
+      "language": "cpp",
+      "difficulty": "hard",
+      "topic": "Refs & Scope",
+      "code": "#include <bits/stdc++.h>\nusing namespace std;\nint main(){int x=10; int &r=x; r+=5; {int x=r; x+=5; cout<<x<<\" \";} cout<<x; }",
+      "expected_output": "20 15",
+      "explanation": "Expected output explained for Refs & Scope in cpp.",
+      "options": [
+        "20 15",
+        "0",
+        "1",
+        "error"
+      ]
+    },
+    {
+      "id": "APT-0032",
+      "type": "aptitude",
+      "difficulty": "hard",
+      "topic": "Algebra",
+      "question": "The sum of ages of A and B is 45. If A is 3 times B, what is B's age?",
+      "options": [
+        "12",
+        "14",
+        "11",
+        "15"
+      ],
+      "answer": "12",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "CODE-0090",
+      "type": "code",
+      "language": "js",
+      "difficulty": "easy",
+      "topic": "Hoisting",
+      "code": "console.log(a); var a = 5; // ?",
+      "expected_output": "undefined",
+      "explanation": "Expected output explained for Hoisting in js.",
+      "options": [
+        "undefined",
+        "0",
+        "1",
+        "error"
+      ]
+    },
+    {
+      "id": "APT-0117",
+      "type": "aptitude",
+      "difficulty": "hard",
+      "topic": "Permutation & Combination",
+      "question": "Divide ₹1200 in the ratio 2:3:5.",
+      "options": [
+        "₹240, ₹360, ₹600",
+        "₹600, ₹600, ₹600",
+        "₹700, ₹500, ₹600",
+        "₹900, ₹500, ₹400"
+      ],
+      "answer": "₹240, ₹360, ₹600",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0228",
+      "type": "aptitude",
+      "difficulty": "hard",
+      "topic": "Percentages",
+      "question": "A shopkeeper marks an item 20% above cost price ₹100 and gives 15% discount on MRP. What is the net profit or loss percentage?",
+      "options": [
+        "2.0%",
+        "5%",
+        "10%",
+        "-5%"
+      ],
+      "answer": "2.0%",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "CODE-0114",
+      "type": "code",
+      "language": "python",
+      "difficulty": "easy",
+      "topic": "Arithmetic",
+      "code": "a = 0\nb = 1\nprint(a + b)",
+      "expected_output": "1",
+      "explanation": "Simple addition.",
+      "options": [
+        "1",
+        "0",
+        "1",
+        "-1"
+      ]
+    },
+    {
+      "id": "APT-0011",
+      "type": "aptitude",
+      "difficulty": "easy",
+      "topic": "Series",
+      "question": "A price increases from ₹1200 to ₹1260. What is the percentage increase?",
+      "options": [
+        "5%",
+        "7%",
+        "0%",
+        "-5%"
+      ],
+      "answer": "5%",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0279",
+      "type": "aptitude",
+      "difficulty": "medium",
+      "topic": "Calendar",
+      "question": "A price increases from ₹100 to ₹105. What is the percentage increase?",
+      "options": [
+        "5%",
+        "7%",
+        "0%",
+        "-5%"
+      ],
+      "answer": "5%",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0091",
+      "type": "aptitude",
+      "difficulty": "hard",
+      "topic": "Simple Interest",
+      "question": "The sum of ages of A and B is 45. If A is 4 times B, what is B's age?",
+      "options": [
+        "20",
+        "22",
+        "19",
+        "23"
+      ],
+      "answer": "20",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0288",
+      "type": "aptitude",
+      "difficulty": "easy",
+      "topic": "Percentages",
+      "question": "The sum of ages of A and B is 60. If A is 5 times B, what is B's age?",
+      "options": [
+        "18",
+        "20",
+        "17",
+        "21"
+      ],
+      "answer": "18",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0012",
+      "type": "aptitude",
+      "difficulty": "medium",
+      "topic": "Logarithms",
+      "question": "A car covers 60 km at 40 km/h and returns at 40 km/h. What is the average speed for the whole trip? (rounded to 2 decimals if needed)",
+      "options": [
+        "40.0 km/h",
+        "42.0 km/h",
+        "39.0 km/h",
+        "37.0 km/h"
+      ],
+      "answer": "40.0 km/h",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0084",
+      "type": "aptitude",
+      "difficulty": "hard",
+      "topic": "Mixtures",
+      "question": "Pipe A fills a tank in 15 h and B in 18 h. With a leakage that empties 60 of tank per hour, how long to fill?",
+      "options": [
+        "9.47 h",
+        "10 h",
+        "8.47 h",
+        "10.47 h"
+      ],
+      "answer": "9.47 h",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "CODE-0076",
+      "type": "code",
+      "language": "java",
+      "difficulty": "medium",
+      "topic": "String imm",
+      "code": "public class Main{ public static void main(String[] args){ String s=\"hi\"; s.concat(\"!\"); System.out.print(s); s = s + \"!\"; System.out.print(\" \" + s);} }",
+      "expected_output": "hi hi!",
+      "explanation": "Expected output explained for String imm in java.",
+      "options": [
+        "hi hi!",
+        "0",
+        "1",
+        "error"
+      ]
+    },
+    {
+      "id": "APT-0095",
+      "type": "aptitude",
+      "difficulty": "medium",
+      "topic": "Logical Reasoning",
+      "question": "A shopkeeper marks an item 10% above cost price ₹120 and gives 5% discount on MRP. What is the net profit or loss percentage?",
+      "options": [
+        "4.5%",
+        "5%",
+        "10%",
+        "-5%"
+      ],
+      "answer": "4.5%",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0121",
+      "type": "aptitude",
+      "difficulty": "hard",
+      "topic": "Ages",
+      "question": "A car covers 150 km at 50 km/h and returns at 30 km/h. What is the average speed for the whole trip? (rounded to 2 decimals if needed)",
+      "options": [
+        "37.5 km/h",
+        "39.5 km/h",
+        "36.5 km/h",
+        "34.5 km/h"
+      ],
+      "answer": "37.5 km/h",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0292",
+      "type": "aptitude",
+      "difficulty": "easy",
+      "topic": "Ages",
+      "question": "A car covers 120 km at 50 km/h and returns at 50 km/h. What is the average speed for the whole trip? (rounded to 2 decimals if needed)",
+      "options": [
+        "50.0 km/h",
+        "52.0 km/h",
+        "49.0 km/h",
+        "47.0 km/h"
+      ],
+      "answer": "50.0 km/h",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0125",
+      "type": "aptitude",
+      "difficulty": "medium",
+      "topic": "Permutation & Combination",
+      "question": "A car covers 200 km at 60 km/h and returns at 50 km/h. What is the average speed for the whole trip? (rounded to 2 decimals if needed)",
+      "options": [
+        "54.55 km/h",
+        "56.55 km/h",
+        "53.55 km/h",
+        "51.55 km/h"
+      ],
+      "answer": "54.55 km/h",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0237",
+      "type": "aptitude",
+      "difficulty": "medium",
+      "topic": "Profit & Loss",
+      "question": "A car covers 150 km at 40 km/h and returns at 30 km/h. What is the average speed for the whole trip? (rounded to 2 decimals if needed)",
+      "options": [
+        "34.29 km/h",
+        "36.29 km/h",
+        "33.29 km/h",
+        "31.29 km/h"
+      ],
+      "answer": "34.29 km/h",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "CODE-0059",
+      "type": "code",
+      "language": "c",
+      "difficulty": "medium",
+      "topic": "Sizeof",
+      "code": "#include <stdio.h>\nint main(){char s[] = \"hi\"; printf(\"%d\", sizeof(s)); return 0;}",
+      "expected_output": "3",
+      "explanation": "Expected output explained for Sizeof in c.",
+      "options": [
+        "3",
+        "0",
+        "1",
+        "error"
+      ]
+    },
+    {
+      "id": "CODE-0089",
+      "type": "code",
+      "language": "js",
+      "difficulty": "medium",
+      "topic": "Hoisting",
+      "code": "console.log(a); var a = 5; // ?",
+      "expected_output": "undefined",
+      "explanation": "Expected output explained for Hoisting in js.",
+      "options": [
+        "undefined",
+        "0",
+        "1",
+        "error"
+      ]
+    },
+    {
+      "id": "APT-0210",
+      "type": "aptitude",
+      "difficulty": "easy",
+      "topic": "Pipes & Cisterns",
+      "question": "A shopkeeper marks an item 25% above cost price ₹120 and gives 20% discount on MRP. What is the net profit or loss percentage?",
+      "options": [
+        "0%",
+        "5%",
+        "10%",
+        "-5%"
+      ],
+      "answer": "0%",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0142",
+      "type": "aptitude",
+      "difficulty": "hard",
+      "topic": "Ratio",
+      "question": "Find the simple interest on ₹5000 at 5% per annum for 2 years.",
+      "options": [
+        "₹500",
+        "₹600",
+        "₹550",
+        "₹700"
+      ],
+      "answer": "₹500",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0299",
+      "type": "aptitude",
+      "difficulty": "hard",
+      "topic": "Pipes & Cisterns",
+      "question": "A price increases from ₹100 to ₹105. What is the percentage increase?",
+      "options": [
+        "5%",
+        "7%",
+        "0%",
+        "-5%"
+      ],
+      "answer": "5%",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "CODE-0014",
+      "type": "code",
+      "language": "python",
+      "difficulty": "medium",
+      "topic": "List multiply",
+      "code": "x = [1,2,3]\nprint(x*2)",
+      "expected_output": "[1, 2, 3, 1, 2, 3]",
+      "explanation": "Expected output explained for List multiply in python."
+    },
+    {
+      "id": "APT-0297",
+      "type": "aptitude",
+      "difficulty": "medium",
+      "topic": "Profit & Loss",
+      "question": "A price increases from ₹800 to ₹920. What is the percentage increase?",
+      "options": [
+        "15%",
+        "17%",
+        "10%",
+        "5%"
+      ],
+      "answer": "15%",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0170",
+      "type": "aptitude",
+      "difficulty": "easy",
+      "topic": "Logical Reasoning",
+      "question": "A shopkeeper marks an item 20% above cost price ₹100 and gives 15% discount on MRP. What is the net profit or loss percentage?",
+      "options": [
+        "2.0%",
+        "5%",
+        "10%",
+        "-5%"
+      ],
+      "answer": "2.0%",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0180",
+      "type": "aptitude",
+      "difficulty": "hard",
+      "topic": "Profit & Loss",
+      "question": "A car covers 60 km at 60 km/h and returns at 50 km/h. What is the average speed for the whole trip? (rounded to 2 decimals if needed)",
+      "options": [
+        "54.55 km/h",
+        "56.55 km/h",
+        "53.55 km/h",
+        "51.55 km/h"
+      ],
+      "answer": "54.55 km/h",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0107",
+      "type": "aptitude",
+      "difficulty": "hard",
+      "topic": "Logical Reasoning",
+      "question": "Divide ₹1200 in the ratio 3:2:1.",
+      "options": [
+        "₹600, ₹400, ₹200",
+        "₹600, ₹600, ₹600",
+        "₹700, ₹500, ₹600",
+        "₹900, ₹500, ₹400"
+      ],
+      "answer": "₹600, ₹400, ₹200",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0224",
+      "type": "aptitude",
+      "difficulty": "hard",
+      "topic": "Syllogism",
+      "question": "A shopkeeper marks an item 10% above cost price ₹100 and gives 5% discount on MRP. What is the net profit or loss percentage?",
+      "options": [
+        "4.5%",
+        "5%",
+        "10%",
+        "-5%"
+      ],
+      "answer": "4.5%",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0243",
+      "type": "aptitude",
+      "difficulty": "medium",
+      "topic": "Time Speed Distance",
+      "question": "Find the simple interest on ₹5000 at 6% per annum for 4 years.",
+      "options": [
+        "₹1200",
+        "₹1300",
+        "₹1250",
+        "₹1400"
+      ],
+      "answer": "₹1200",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "CODE-0051",
+      "type": "code",
+      "language": "c",
+      "difficulty": "easy",
+      "topic": "Operator",
+      "code": "#include <stdio.h>\nint main(){int a=3,b=4; printf(\"%d\", a + b * a - b); return 0;}",
+      "expected_output": "11",
+      "explanation": "Expected output explained for Operator in c.",
+      "options": [
+        "11",
+        "0",
+        "1",
+        "error"
+      ]
+    },
+    {
+      "id": "APT-0031",
+      "type": "aptitude",
+      "difficulty": "hard",
+      "topic": "Mixtures",
+      "question": "A price increases from ₹1200 to ₹1440. What is the percentage increase?",
+      "options": [
+        "20%",
+        "22%",
+        "15%",
+        "10%"
+      ],
+      "answer": "20%",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "CODE-0052",
+      "type": "code",
+      "language": "c",
+      "difficulty": "easy",
+      "topic": "Operator",
+      "code": "#include <stdio.h>\nint main(){int a=3,b=4; printf(\"%d\", a + b * a - b); return 0;}",
+      "expected_output": "11",
+      "explanation": "Expected output explained for Operator in c.",
+      "options": [
+        "11",
+        "0",
+        "1",
+        "error"
+      ]
+    },
+    {
+      "id": "CODE-0109",
+      "type": "code",
+      "language": "python",
+      "difficulty": "easy",
+      "topic": "Arithmetic",
+      "code": "a = 5\nb = 5\nprint(a + b)",
+      "expected_output": "10",
+      "explanation": "Simple addition.",
+      "options": [
+        "10",
+        "25",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "id": "CODE-0115",
+      "type": "code",
+      "language": "python",
+      "difficulty": "easy",
+      "topic": "Arithmetic",
+      "code": "a = 1\nb = 2\nprint(a + b)",
+      "expected_output": "3",
+      "explanation": "Simple addition.",
+      "options": [
+        "3",
+        "2",
+        "1",
+        "-1"
+      ]
+    },
+    {
+      "id": "APT-0132",
+      "type": "aptitude",
+      "difficulty": "hard",
+      "topic": "Percentages",
+      "question": "Pipe A fills a tank in 12 h and B in 30 h. With a leakage that empties 48 of tank per hour, how long to fill?",
+      "options": [
+        "10.43 h",
+        "11 h",
+        "9.43 h",
+        "11.43 h"
+      ],
+      "answer": "10.43 h",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "CODE-0096",
+      "type": "code",
+      "language": "js",
+      "difficulty": "medium",
+      "topic": "Closure",
+      "code": "function make(){ var x=0; return function(){ x++; return x;} } var f=make(); console.log(f()); console.log(f());",
+      "expected_output": "1\n2",
+      "explanation": "Expected output explained for Closure in js."
+    },
+    {
+      "id": "APT-0191",
+      "type": "aptitude",
+      "difficulty": "medium",
+      "topic": "Series",
+      "question": "A car covers 120 km at 80 km/h and returns at 40 km/h. What is the average speed for the whole trip? (rounded to 2 decimals if needed)",
+      "options": [
+        "53.33 km/h",
+        "55.33 km/h",
+        "52.33 km/h",
+        "50.33 km/h"
+      ],
+      "answer": "53.33 km/h",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0258",
+      "type": "aptitude",
+      "difficulty": "hard",
+      "topic": "Ages",
+      "question": "Pipe A fills a tank in 20 h and B in 30 h. With a leakage that empties 60 of tank per hour, how long to fill?",
+      "options": [
+        "15.0 h",
+        "15 h",
+        "14.0 h",
+        "16.0 h"
+      ],
+      "answer": "15.0 h",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0099",
+      "type": "aptitude",
+      "difficulty": "medium",
+      "topic": "Logical Reasoning",
+      "question": "Divide ₹1800 in the ratio 3:2:1.",
+      "options": [
+        "₹900, ₹600, ₹300",
+        "₹600, ₹600, ₹600",
+        "₹700, ₹500, ₹600",
+        "₹900, ₹500, ₹400"
+      ],
+      "answer": "₹900, ₹600, ₹300",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0165",
+      "type": "aptitude",
+      "difficulty": "medium",
+      "topic": "Pipes & Cisterns",
+      "question": "A car covers 60 km at 50 km/h and returns at 40 km/h. What is the average speed for the whole trip? (rounded to 2 decimals if needed)",
+      "options": [
+        "44.44 km/h",
+        "46.44 km/h",
+        "43.44 km/h",
+        "41.44 km/h"
+      ],
+      "answer": "44.44 km/h",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0036",
+      "type": "aptitude",
+      "difficulty": "hard",
+      "topic": "Mixtures",
+      "question": "The sum of ages of A and B is 54. If A is 5 times B, what is B's age?",
+      "options": [
+        "9",
+        "11",
+        "8",
+        "12"
+      ],
+      "answer": "9",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0195",
+      "type": "aptitude",
+      "difficulty": "easy",
+      "topic": "Profit & Loss",
+      "question": "Pipe A fills a tank in 20 h and B in 30 h. With a leakage that empties 36 of tank per hour, how long to fill?",
+      "options": [
+        "18.0 h",
+        "18 h",
+        "17.0 h",
+        "19.0 h"
+      ],
+      "answer": "18.0 h",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0158",
+      "type": "aptitude",
+      "difficulty": "medium",
+      "topic": "Numbers",
+      "question": "Pipe A fills a tank in 15 h and B in 24 h. With a leakage that empties 36 of tank per hour, how long to fill?",
+      "options": [
+        "12.41 h",
+        "13 h",
+        "11.41 h",
+        "13.41 h"
+      ],
+      "answer": "12.41 h",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0186",
+      "type": "aptitude",
+      "difficulty": "medium",
+      "topic": "Pipes & Cisterns",
+      "question": "Find the simple interest on ₹2000 at 4% per annum for 2 years.",
+      "options": [
+        "₹160",
+        "₹260",
+        "₹210",
+        "₹360"
+      ],
+      "answer": "₹160",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0143",
+      "type": "aptitude",
+      "difficulty": "easy",
+      "topic": "Syllogism",
+      "question": "A 30 L mixture has milk and water in 3:2. How much water (in L) should be added to make it 3:2?",
+      "options": [
+        "8 L",
+        "9 L",
+        "10 L",
+        "11 L"
+      ],
+      "answer": "8 L",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0056",
+      "type": "aptitude",
+      "difficulty": "hard",
+      "topic": "Ages",
+      "question": "A 30 L mixture has milk and water in 7:3. How much water (in L) should be added to make it 3:2?",
+      "options": [
+        "5 L",
+        "6 L",
+        "7 L",
+        "8 L"
+      ],
+      "answer": "5 L",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "CODE-0084",
+      "type": "code",
+      "language": "java",
+      "difficulty": "easy",
+      "topic": "Post pre",
+      "code": "public class Main{ public static void main(String[] args){ int x=5; int y = x++ + ++x; System.out.print(y + \" \" + x);} }",
+      "expected_output": "12 7",
+      "explanation": "Expected output explained for Post pre in java.",
+      "options": [
+        "12 7",
+        "0",
+        "1",
+        "error"
+      ]
+    },
+    {
+      "id": "APT-0068",
+      "type": "aptitude",
+      "difficulty": "easy",
+      "topic": "Time Speed Distance",
+      "question": "A price increases from ₹800 to ₹960. What is the percentage increase?",
+      "options": [
+        "20%",
+        "22%",
+        "15%",
+        "10%"
+      ],
+      "answer": "20%",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "CODE-0029",
+      "type": "code",
+      "language": "python",
+      "difficulty": "easy",
+      "topic": "Variable shadow",
+      "code": "x = 5\ndef f():\n    x = 3\nf()\nprint(x)",
+      "expected_output": "5",
+      "explanation": "Expected output explained for Variable shadow in python.",
+      "options": [
+        "5",
+        "0",
+        "1",
+        "error"
+      ]
+    },
+    {
+      "id": "APT-0295",
+      "type": "aptitude",
+      "difficulty": "hard",
+      "topic": "Percentages",
+      "question": "A 20 L mixture has milk and water in 3:2. How much water (in L) should be added to make it 2:1?",
+      "options": [
+        "4 L",
+        "5 L",
+        "6 L",
+        "7 L"
+      ],
+      "answer": "4 L",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0300",
+      "type": "aptitude",
+      "difficulty": "medium",
+      "topic": "Percentages",
+      "question": "A car covers 60 km at 80 km/h and returns at 30 km/h. What is the average speed for the whole trip? (rounded to 2 decimals if needed)",
+      "options": [
+        "43.64 km/h",
+        "45.64 km/h",
+        "42.64 km/h",
+        "40.64 km/h"
+      ],
+      "answer": "43.64 km/h",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "CODE-0008",
+      "type": "code",
+      "language": "python",
+      "difficulty": "hard",
+      "topic": "Mutable default",
+      "code": "def f(x, acc=[]):\n    acc.append(x)\n    return acc\nprint(f(1))\nprint(f(2, []))\nprint(f(3))",
+      "expected_output": "[1]\n[2]\n[1, 3]",
+      "explanation": "Expected output explained for Mutable default in python."
+    },
+    {
+      "id": "APT-0211",
+      "type": "aptitude",
+      "difficulty": "hard",
+      "topic": "Simple Interest",
+      "question": "A 40 L mixture has milk and water in 7:3. How much water (in L) should be added to make it 4:3?",
+      "options": [
+        "9 L",
+        "10 L",
+        "11 L",
+        "12 L"
+      ],
+      "answer": "9 L",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0116",
+      "type": "aptitude",
+      "difficulty": "easy",
+      "topic": "Ratio",
+      "question": "The sum of ages of A and B is 36. If A is 4 times B, what is B's age?",
+      "options": [
+        "16",
+        "18",
+        "15",
+        "19"
+      ],
+      "answer": "16",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0181",
+      "type": "aptitude",
+      "difficulty": "medium",
+      "topic": "Blood Relations",
+      "question": "The sum of ages of A and B is 60. If A is 4 times B, what is B's age?",
+      "options": [
+        "12",
+        "14",
+        "11",
+        "15"
+      ],
+      "answer": "12",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "CODE-0007",
+      "type": "code",
+      "language": "python",
+      "difficulty": "medium",
+      "topic": "Mutable default",
+      "code": "def f(x, acc=[]):\n    acc.append(x)\n    return acc\nprint(f(1))\nprint(f(2, []))\nprint(f(3))",
+      "expected_output": "[1]\n[2]\n[1, 3]",
+      "explanation": "Expected output explained for Mutable default in python."
+    },
+    {
+      "id": "CODE-0004",
+      "type": "code",
+      "language": "python",
+      "difficulty": "hard",
+      "topic": "Loop & Scope",
+      "code": "x = 3\nfor x in range(2):\n    x += 1\nprint(x)",
+      "expected_output": "2",
+      "explanation": "Expected output explained for Loop & Scope in python.",
+      "options": [
+        "2",
+        "0",
+        "1",
+        "error"
+      ]
+    },
+    {
+      "id": "CODE-0011",
+      "type": "code",
+      "language": "python",
+      "difficulty": "hard",
+      "topic": "Mutable default",
+      "code": "def f(x, acc=[]):\n    acc.append(x)\n    return acc\nprint(f(1))\nprint(f(2, []))\nprint(f(3))",
+      "expected_output": "[1]\n[2]\n[1, 3]",
+      "explanation": "Expected output explained for Mutable default in python."
+    },
+    {
+      "id": "APT-0075",
+      "type": "aptitude",
+      "difficulty": "medium",
+      "topic": "Logarithms",
+      "question": "A 40 L mixture has milk and water in 5:4. How much water (in L) should be added to make it 2:1?",
+      "options": [
+        "2 L",
+        "3 L",
+        "4 L",
+        "5 L"
+      ],
+      "answer": "2 L",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0166",
+      "type": "aptitude",
+      "difficulty": "easy",
+      "topic": "Simple Interest",
+      "question": "A 40 L mixture has milk and water in 7:3. How much water (in L) should be added to make it 3:2?",
+      "options": [
+        "6 L",
+        "7 L",
+        "8 L",
+        "9 L"
+      ],
+      "answer": "6 L",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0100",
+      "type": "aptitude",
+      "difficulty": "medium",
+      "topic": "Simple Interest",
+      "question": "A 20 L mixture has milk and water in 5:4. How much water (in L) should be added to make it 2:1?",
+      "options": [
+        "4 L",
+        "5 L",
+        "6 L",
+        "7 L"
+      ],
+      "answer": "4 L",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0198",
+      "type": "aptitude",
+      "difficulty": "easy",
+      "topic": "Simple Interest",
+      "question": "A car covers 60 km at 40 km/h and returns at 50 km/h. What is the average speed for the whole trip? (rounded to 2 decimals if needed)",
+      "options": [
+        "44.44 km/h",
+        "46.44 km/h",
+        "43.44 km/h",
+        "41.44 km/h"
+      ],
+      "answer": "44.44 km/h",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0028",
+      "type": "aptitude",
+      "difficulty": "medium",
+      "topic": "Profit & Loss",
+      "question": "Pipe A fills a tank in 15 h and B in 18 h. With a leakage that empties 36 of tank per hour, how long to fill?",
+      "options": [
+        "10.59 h",
+        "11 h",
+        "9.59 h",
+        "11.59 h"
+      ],
+      "answer": "10.59 h",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0109",
+      "type": "aptitude",
+      "difficulty": "medium",
+      "topic": "Simple Interest",
+      "question": "Find the simple interest on ₹3000 at 6% per annum for 4 years.",
+      "options": [
+        "₹720",
+        "₹820",
+        "₹770",
+        "₹920"
+      ],
+      "answer": "₹720",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0219",
+      "type": "aptitude",
+      "difficulty": "easy",
+      "topic": "Blood Relations",
+      "question": "A shopkeeper marks an item 20% above cost price ₹250 and gives 15% discount on MRP. What is the net profit or loss percentage?",
+      "options": [
+        "2.0%",
+        "5%",
+        "10%",
+        "-5%"
+      ],
+      "answer": "2.0%",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0204",
+      "type": "aptitude",
+      "difficulty": "medium",
+      "topic": "Mixtures",
+      "question": "A car covers 200 km at 60 km/h and returns at 50 km/h. What is the average speed for the whole trip? (rounded to 2 decimals if needed)",
+      "options": [
+        "54.55 km/h",
+        "56.55 km/h",
+        "53.55 km/h",
+        "51.55 km/h"
+      ],
+      "answer": "54.55 km/h",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "CODE-0081",
+      "type": "code",
+      "language": "java",
+      "difficulty": "medium",
+      "topic": "Post pre",
+      "code": "public class Main{ public static void main(String[] args){ int x=5; int y = x++ + ++x; System.out.print(y + \" \" + x);} }",
+      "expected_output": "12 7",
+      "explanation": "Expected output explained for Post pre in java.",
+      "options": [
+        "12 7",
+        "0",
+        "1",
+        "error"
+      ]
+    },
+    {
+      "id": "APT-0171",
+      "type": "aptitude",
+      "difficulty": "hard",
+      "topic": "Percentages",
+      "question": "A car covers 150 km at 50 km/h and returns at 30 km/h. What is the average speed for the whole trip? (rounded to 2 decimals if needed)",
+      "options": [
+        "37.5 km/h",
+        "39.5 km/h",
+        "36.5 km/h",
+        "34.5 km/h"
+      ],
+      "answer": "37.5 km/h",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "CODE-0069",
+      "type": "code",
+      "language": "cpp",
+      "difficulty": "medium",
+      "topic": "Vector ref",
+      "code": "#include <bits/stdc++.h>\nusing namespace std;\nint main(){vector<int> v{1,2,3}; for(auto &x:v) x+=1; for(auto x:v) cout<<x; }",
+      "expected_output": "234",
+      "explanation": "Expected output explained for Vector ref in cpp.",
+      "options": [
+        "234",
+        "0",
+        "1",
+        "error"
+      ]
+    },
+    {
+      "id": "APT-0209",
+      "type": "aptitude",
+      "difficulty": "hard",
+      "topic": "Puzzles",
+      "question": "Pipe A fills a tank in 12 h and B in 18 h. With a leakage that empties 48 of tank per hour, how long to fill?",
+      "options": [
+        "8.47 h",
+        "9 h",
+        "7.47 h",
+        "9.47 h"
+      ],
+      "answer": "8.47 h",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0262",
+      "type": "aptitude",
+      "difficulty": "medium",
+      "topic": "Logical Reasoning",
+      "question": "Find the simple interest on ₹2000 at 5% per annum for 4 years.",
+      "options": [
+        "₹400",
+        "₹500",
+        "₹450",
+        "₹600"
+      ],
+      "answer": "₹400",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0115",
+      "type": "aptitude",
+      "difficulty": "medium",
+      "topic": "Simple Interest",
+      "question": "Divide ₹900 in the ratio 4:3:2.",
+      "options": [
+        "₹400, ₹300, ₹200",
+        "₹600, ₹600, ₹600",
+        "₹700, ₹500, ₹600",
+        "₹900, ₹500, ₹400"
+      ],
+      "answer": "₹400, ₹300, ₹200",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0065",
+      "type": "aptitude",
+      "difficulty": "medium",
+      "topic": "Permutation & Combination",
+      "question": "Divide ₹1800 in the ratio 3:2:1.",
+      "options": [
+        "₹900, ₹600, ₹300",
+        "₹600, ₹600, ₹600",
+        "₹700, ₹500, ₹600",
+        "₹900, ₹500, ₹400"
+      ],
+      "answer": "₹900, ₹600, ₹300",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0042",
+      "type": "aptitude",
+      "difficulty": "medium",
+      "topic": "Time Speed Distance",
+      "question": "A car covers 200 km at 80 km/h and returns at 50 km/h. What is the average speed for the whole trip? (rounded to 2 decimals if needed)",
+      "options": [
+        "61.54 km/h",
+        "63.54 km/h",
+        "60.54 km/h",
+        "58.54 km/h"
+      ],
+      "answer": "61.54 km/h",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0291",
+      "type": "aptitude",
+      "difficulty": "hard",
+      "topic": "Ratio",
+      "question": "Divide ₹900 in the ratio 3:2:1.",
+      "options": [
+        "₹450, ₹300, ₹150",
+        "₹600, ₹600, ₹600",
+        "₹700, ₹500, ₹600",
+        "₹900, ₹500, ₹400"
+      ],
+      "answer": "₹450, ₹300, ₹150",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0073",
+      "type": "aptitude",
+      "difficulty": "easy",
+      "topic": "Ratio",
+      "question": "A shopkeeper marks an item 20% above cost price ₹250 and gives 15% discount on MRP. What is the net profit or loss percentage?",
+      "options": [
+        "2.0%",
+        "5%",
+        "10%",
+        "-5%"
+      ],
+      "answer": "2.0%",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "CODE-0065",
+      "type": "code",
+      "language": "cpp",
+      "difficulty": "hard",
+      "topic": "Refs & Scope",
+      "code": "#include <bits/stdc++.h>\nusing namespace std;\nint main(){int x=10; int &r=x; r+=5; {int x=r; x+=5; cout<<x<<\" \";} cout<<x; }",
+      "expected_output": "20 15",
+      "explanation": "Expected output explained for Refs & Scope in cpp.",
+      "options": [
+        "20 15",
+        "0",
+        "1",
+        "error"
+      ]
+    },
+    {
+      "id": "APT-0094",
+      "type": "aptitude",
+      "difficulty": "hard",
+      "topic": "Time Speed Distance",
+      "question": "The sum of ages of A and B is 45. If A is 5 times B, what is B's age?",
+      "options": [
+        "13",
+        "15",
+        "12",
+        "16"
+      ],
+      "answer": "13",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0051",
+      "type": "aptitude",
+      "difficulty": "medium",
+      "topic": "Calendar",
+      "question": "A car covers 150 km at 80 km/h and returns at 30 km/h. What is the average speed for the whole trip? (rounded to 2 decimals if needed)",
+      "options": [
+        "43.64 km/h",
+        "45.64 km/h",
+        "42.64 km/h",
+        "40.64 km/h"
+      ],
+      "answer": "43.64 km/h",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0168",
+      "type": "aptitude",
+      "difficulty": "hard",
+      "topic": "Ratio",
+      "question": "Find the simple interest on ₹5000 at 7% per annum for 3 years.",
+      "options": [
+        "₹1050",
+        "₹1150",
+        "₹1100",
+        "₹1250"
+      ],
+      "answer": "₹1050",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "CODE-0080",
+      "type": "code",
+      "language": "java",
+      "difficulty": "medium",
+      "topic": "Post pre",
+      "code": "public class Main{ public static void main(String[] args){ int x=5; int y = x++ + ++x; System.out.print(y + \" \" + x);} }",
+      "expected_output": "12 7",
+      "explanation": "Expected output explained for Post pre in java.",
+      "options": [
+        "12 7",
+        "0",
+        "1",
+        "error"
+      ]
+    },
+    {
+      "id": "CODE-0040",
+      "type": "code",
+      "language": "python",
+      "difficulty": "medium",
+      "topic": "Tuple immut",
+      "code": "t = (1,2)\n# t[0]=3 -> error",
+      "expected_output": "TypeError",
+      "explanation": "Expected output explained for Tuple immut in python."
+    },
+    {
+      "id": "APT-0024",
+      "type": "aptitude",
+      "difficulty": "hard",
+      "topic": "Pipes & Cisterns",
+      "question": "A shopkeeper marks an item 20% above cost price ₹80 and gives 15% discount on MRP. What is the net profit or loss percentage?",
+      "options": [
+        "2.0%",
+        "5%",
+        "10%",
+        "-5%"
+      ],
+      "answer": "2.0%",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "CODE-0034",
+      "type": "code",
+      "language": "python",
+      "difficulty": "easy",
+      "topic": "Generator",
+      "code": "g = (i for i in range(3))\nprint(next(g))\nprint(next(g))",
+      "expected_output": "0\n1",
+      "explanation": "Expected output explained for Generator in python."
+    },
+    {
+      "id": "APT-0183",
+      "type": "aptitude",
+      "difficulty": "easy",
+      "topic": "Pipes & Cisterns",
+      "question": "The sum of ages of A and B is 54. If A is 3 times B, what is B's age?",
+      "options": [
+        "14",
+        "16",
+        "13",
+        "17"
+      ],
+      "answer": "14",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "CODE-0095",
+      "type": "code",
+      "language": "js",
+      "difficulty": "medium",
+      "topic": "Closure",
+      "code": "function make(){ var x=0; return function(){ x++; return x;} } var f=make(); console.log(f()); console.log(f());",
+      "expected_output": "1\n2",
+      "explanation": "Expected output explained for Closure in js."
+    },
+    {
+      "id": "CODE-0022",
+      "type": "code",
+      "language": "python",
+      "difficulty": "easy",
+      "topic": "Comprehension",
+      "code": "lst = [i*i for i in range(4)]\nprint(lst)",
+      "expected_output": "[0, 1, 4, 9]",
+      "explanation": "Expected output explained for Comprehension in python."
+    },
+    {
+      "id": "CODE-0061",
+      "type": "code",
+      "language": "cpp",
+      "difficulty": "hard",
+      "topic": "Refs & Scope",
+      "code": "#include <bits/stdc++.h>\nusing namespace std;\nint main(){int x=10; int &r=x; r+=5; {int x=r; x+=5; cout<<x<<\" \";} cout<<x; }",
+      "expected_output": "20 15",
+      "explanation": "Expected output explained for Refs & Scope in cpp.",
+      "options": [
+        "20 15",
+        "0",
+        "1",
+        "error"
+      ]
+    },
+    {
+      "id": "APT-0277",
+      "type": "aptitude",
+      "difficulty": "easy",
+      "topic": "Profit & Loss",
+      "question": "The sum of ages of A and B is 30. If A is 2 times B, what is B's age?",
+      "options": [
+        "10",
+        "12",
+        "9",
+        "13"
+      ],
+      "answer": "10",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "CODE-0045",
+      "type": "code",
+      "language": "c",
+      "difficulty": "hard",
+      "topic": "Pre/Post",
+      "code": "#include <stdio.h>\nint main(){\n int a=5; printf(\"%d \", a++); printf(\"%d\", ++a); return 0; }",
+      "expected_output": "5 7",
+      "explanation": "Expected output explained for Pre/Post in c.",
+      "options": [
+        "5 7",
+        "0",
+        "1",
+        "error"
+      ]
+    },
+    {
+      "id": "CODE-0044",
+      "type": "code",
+      "language": "c",
+      "difficulty": "hard",
+      "topic": "Pre/Post",
+      "code": "#include <stdio.h>\nint main(){\n int a=5; printf(\"%d \", a++); printf(\"%d\", ++a); return 0; }",
+      "expected_output": "5 7",
+      "explanation": "Expected output explained for Pre/Post in c.",
+      "options": [
+        "5 7",
+        "0",
+        "1",
+        "error"
+      ]
+    },
+    {
+      "id": "APT-0145",
+      "type": "aptitude",
+      "difficulty": "hard",
+      "topic": "Time Speed Distance",
+      "question": "A price increases from ₹500 to ₹550. What is the percentage increase?",
+      "options": [
+        "10%",
+        "12%",
+        "5%",
+        "0%"
+      ],
+      "answer": "10%",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0160",
+      "type": "aptitude",
+      "difficulty": "hard",
+      "topic": "Mixtures",
+      "question": "Divide ₹600 in the ratio 3:2:1.",
+      "options": [
+        "₹300, ₹200, ₹100",
+        "₹600, ₹600, ₹600",
+        "₹700, ₹500, ₹600",
+        "₹900, ₹500, ₹400"
+      ],
+      "answer": "₹300, ₹200, ₹100",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0225",
+      "type": "aptitude",
+      "difficulty": "medium",
+      "topic": "Clocks",
+      "question": "The sum of ages of A and B is 54. If A is 4 times B, what is B's age?",
+      "options": [
+        "18",
+        "20",
+        "17",
+        "21"
+      ],
+      "answer": "18",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "CODE-0085",
+      "type": "code",
+      "language": "js",
+      "difficulty": "easy",
+      "topic": "Hoisting",
+      "code": "console.log(a); var a = 5; // ?",
+      "expected_output": "undefined",
+      "explanation": "Expected output explained for Hoisting in js.",
+      "options": [
+        "undefined",
+        "0",
+        "1",
+        "error"
+      ]
+    },
+    {
+      "id": "CODE-0002",
+      "type": "code",
+      "language": "python",
+      "difficulty": "hard",
+      "topic": "Loop & Scope",
+      "code": "x = 3\nfor x in range(2):\n    x += 1\nprint(x)",
+      "expected_output": "2",
+      "explanation": "Expected output explained for Loop & Scope in python.",
+      "options": [
+        "2",
+        "0",
+        "1",
+        "error"
+      ]
+    },
+    {
+      "id": "CODE-0068",
+      "type": "code",
+      "language": "cpp",
+      "difficulty": "medium",
+      "topic": "Vector ref",
+      "code": "#include <bits/stdc++.h>\nusing namespace std;\nint main(){vector<int> v{1,2,3}; for(auto &x:v) x+=1; for(auto x:v) cout<<x; }",
+      "expected_output": "234",
+      "explanation": "Expected output explained for Vector ref in cpp.",
+      "options": [
+        "234",
+        "0",
+        "1",
+        "error"
+      ]
+    },
+    {
+      "id": "APT-0255",
+      "type": "aptitude",
+      "difficulty": "easy",
+      "topic": "Calendar",
+      "question": "The sum of ages of A and B is 30. If A is 3 times B, what is B's age?",
+      "options": [
+        "8",
+        "10",
+        "7",
+        "11"
+      ],
+      "answer": "8",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "CODE-0060",
+      "type": "code",
+      "language": "c",
+      "difficulty": "hard",
+      "topic": "Sizeof",
+      "code": "#include <stdio.h>\nint main(){char s[] = \"hi\"; printf(\"%d\", sizeof(s)); return 0;}",
+      "expected_output": "3",
+      "explanation": "Expected output explained for Sizeof in c.",
+      "options": [
+        "3",
+        "0",
+        "1",
+        "error"
+      ]
+    },
+    {
+      "id": "CODE-0005",
+      "type": "code",
+      "language": "python",
+      "difficulty": "hard",
+      "topic": "Loop & Scope",
+      "code": "x = 3\nfor x in range(2):\n    x += 1\nprint(x)",
+      "expected_output": "2",
+      "explanation": "Expected output explained for Loop & Scope in python.",
+      "options": [
+        "2",
+        "0",
+        "1",
+        "error"
+      ]
+    },
+    {
+      "id": "APT-0176",
+      "type": "aptitude",
+      "difficulty": "medium",
+      "topic": "Ratio",
+      "question": "Divide ₹900 in the ratio 2:3:5.",
+      "options": [
+        "₹180, ₹270, ₹450",
+        "₹600, ₹600, ₹600",
+        "₹700, ₹500, ₹600",
+        "₹900, ₹500, ₹400"
+      ],
+      "answer": "₹180, ₹270, ₹450",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "CODE-0037",
+      "type": "code",
+      "language": "python",
+      "difficulty": "hard",
+      "topic": "Tuple immut",
+      "code": "t = (1,2)\n# t[0]=3 -> error",
+      "expected_output": "TypeError",
+      "explanation": "Expected output explained for Tuple immut in python."
+    },
+    {
+      "id": "CODE-0082",
+      "type": "code",
+      "language": "java",
+      "difficulty": "easy",
+      "topic": "Post pre",
+      "code": "public class Main{ public static void main(String[] args){ int x=5; int y = x++ + ++x; System.out.print(y + \" \" + x);} }",
+      "expected_output": "12 7",
+      "explanation": "Expected output explained for Post pre in java.",
+      "options": [
+        "12 7",
+        "0",
+        "1",
+        "error"
+      ]
+    },
+    {
+      "id": "APT-0063",
+      "type": "aptitude",
+      "difficulty": "easy",
+      "topic": "Clocks",
+      "question": "Find the simple interest on ₹4000 at 7% per annum for 3 years.",
+      "options": [
+        "₹840",
+        "₹940",
+        "₹890",
+        "₹1040"
+      ],
+      "answer": "₹840",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "CODE-0116",
+      "type": "code",
+      "language": "python",
+      "difficulty": "easy",
+      "topic": "Arithmetic",
+      "code": "a = 5\nb = 4\nprint(a + b)",
+      "expected_output": "9",
+      "explanation": "Simple addition.",
+      "options": [
+        "9",
+        "20",
+        "1",
+        "1"
+      ]
+    },
+    {
+      "id": "CODE-0101",
+      "type": "code",
+      "language": "python",
+      "difficulty": "easy",
+      "topic": "Arithmetic",
+      "code": "a = 4\nb = 5\nprint(a + b)",
+      "expected_output": "9",
+      "explanation": "Simple addition.",
+      "options": [
+        "9",
+        "20",
+        "1",
+        "-1"
+      ]
+    },
+    {
+      "id": "APT-0208",
+      "type": "aptitude",
+      "difficulty": "easy",
+      "topic": "Simple Interest",
+      "question": "A 50 L mixture has milk and water in 3:2. How much water (in L) should be added to make it 3:2?",
+      "options": [
+        "6 L",
+        "7 L",
+        "8 L",
+        "9 L"
+      ],
+      "answer": "6 L",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0234",
+      "type": "aptitude",
+      "difficulty": "easy",
+      "topic": "Algebra",
+      "question": "Pipe A fills a tank in 12 h and B in 30 h. With a leakage that empties 36 of tank per hour, how long to fill?",
+      "options": [
+        "11.25 h",
+        "12 h",
+        "10.25 h",
+        "12.25 h"
+      ],
+      "answer": "11.25 h",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "CODE-0091",
+      "type": "code",
+      "language": "js",
+      "difficulty": "easy",
+      "topic": "Closure",
+      "code": "function make(){ var x=0; return function(){ x++; return x;} } var f=make(); console.log(f()); console.log(f());",
+      "expected_output": "1\n2",
+      "explanation": "Expected output explained for Closure in js."
+    },
+    {
+      "id": "APT-0064",
+      "type": "aptitude",
+      "difficulty": "hard",
+      "topic": "Algebra",
+      "question": "A price increases from ₹400 to ₹520. What is the percentage increase?",
+      "options": [
+        "30%",
+        "32%",
+        "25%",
+        "20%"
+      ],
+      "answer": "30%",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0087",
+      "type": "aptitude",
+      "difficulty": "medium",
+      "topic": "Puzzles",
+      "question": "Pipe A fills a tank in 12 h and B in 24 h. With a leakage that empties 36 of tank per hour, how long to fill?",
+      "options": [
+        "10.29 h",
+        "11 h",
+        "9.29 h",
+        "11.29 h"
+      ],
+      "answer": "10.29 h",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0250",
+      "type": "aptitude",
+      "difficulty": "hard",
+      "topic": "Simple Interest",
+      "question": "Pipe A fills a tank in 12 h and B in 30 h. With a leakage that empties 60 of tank per hour, how long to fill?",
+      "options": [
+        "10.0 h",
+        "10 h",
+        "9.0 h",
+        "11.0 h"
+      ],
+      "answer": "10.0 h",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0286",
+      "type": "aptitude",
+      "difficulty": "medium",
+      "topic": "Percentages",
+      "question": "Find the simple interest on ₹5000 at 7% per annum for 4 years.",
+      "options": [
+        "₹1400",
+        "₹1500",
+        "₹1450",
+        "₹1600"
+      ],
+      "answer": "₹1400",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0008",
+      "type": "aptitude",
+      "difficulty": "hard",
+      "topic": "Time Speed Distance",
+      "question": "The sum of ages of A and B is 60. If A is 4 times B, what is B's age?",
+      "options": [
+        "20",
+        "22",
+        "19",
+        "23"
+      ],
+      "answer": "20",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "CODE-0110",
+      "type": "code",
+      "language": "python",
+      "difficulty": "easy",
+      "topic": "Arithmetic",
+      "code": "a = 3\nb = 4\nprint(a + b)",
+      "expected_output": "7",
+      "explanation": "Simple addition.",
+      "options": [
+        "7",
+        "12",
+        "1",
+        "-1"
+      ]
+    },
+    {
+      "id": "CODE-0070",
+      "type": "code",
+      "language": "cpp",
+      "difficulty": "easy",
+      "topic": "Vector ref",
+      "code": "#include <bits/stdc++.h>\nusing namespace std;\nint main(){vector<int> v{1,2,3}; for(auto &x:v) x+=1; for(auto x:v) cout<<x; }",
+      "expected_output": "234",
+      "explanation": "Expected output explained for Vector ref in cpp.",
+      "options": [
+        "234",
+        "0",
+        "1",
+        "error"
+      ]
+    },
+    {
+      "id": "APT-0025",
+      "type": "aptitude",
+      "difficulty": "medium",
+      "topic": "Profit & Loss",
+      "question": "Pipe A fills a tank in 12 h and B in 30 h. With a leakage that empties 36 of tank per hour, how long to fill?",
+      "options": [
+        "11.25 h",
+        "12 h",
+        "10.25 h",
+        "12.25 h"
+      ],
+      "answer": "11.25 h",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0052",
+      "type": "aptitude",
+      "difficulty": "hard",
+      "topic": "Mixtures",
+      "question": "Find the simple interest on ₹2000 at 6% per annum for 4 years.",
+      "options": [
+        "₹480",
+        "₹580",
+        "₹530",
+        "₹680"
+      ],
+      "answer": "₹480",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0177",
+      "type": "aptitude",
+      "difficulty": "medium",
+      "topic": "Ages",
+      "question": "A 50 L mixture has milk and water in 5:4. How much water (in L) should be added to make it 4:3?",
+      "options": [
+        "4 L",
+        "5 L",
+        "6 L",
+        "7 L"
+      ],
+      "answer": "4 L",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "CODE-0079",
+      "type": "code",
+      "language": "java",
+      "difficulty": "easy",
+      "topic": "Post pre",
+      "code": "public class Main{ public static void main(String[] args){ int x=5; int y = x++ + ++x; System.out.print(y + \" \" + x);} }",
+      "expected_output": "12 7",
+      "explanation": "Expected output explained for Post pre in java.",
+      "options": [
+        "12 7",
+        "0",
+        "1",
+        "error"
+      ]
+    },
+    {
+      "id": "CODE-0077",
+      "type": "code",
+      "language": "java",
+      "difficulty": "hard",
+      "topic": "String imm",
+      "code": "public class Main{ public static void main(String[] args){ String s=\"hi\"; s.concat(\"!\"); System.out.print(s); s = s + \"!\"; System.out.print(\" \" + s);} }",
+      "expected_output": "hi hi!",
+      "explanation": "Expected output explained for String imm in java.",
+      "options": [
+        "hi hi!",
+        "0",
+        "1",
+        "error"
+      ]
+    },
+    {
+      "id": "CODE-0104",
+      "type": "code",
+      "language": "python",
+      "difficulty": "easy",
+      "topic": "Arithmetic",
+      "code": "a = 5\nb = 2\nprint(a + b)",
+      "expected_output": "7",
+      "explanation": "Simple addition.",
+      "options": [
+        "7",
+        "10",
+        "3",
+        "3"
+      ]
+    },
+    {
+      "id": "CODE-0118",
+      "type": "code",
+      "language": "python",
+      "difficulty": "medium",
+      "topic": "Unpacking",
+      "code": "a,b = [1,2]; print(a,b)",
+      "expected_output": "1 2",
+      "explanation": "Tricky python behavior."
+    },
+    {
+      "id": "APT-0007",
+      "type": "aptitude",
+      "difficulty": "medium",
+      "topic": "Time Speed Distance",
+      "question": "A 20 L mixture has milk and water in 5:4. How much water (in L) should be added to make it 2:1?",
+      "options": [
+        "5 L",
+        "6 L",
+        "7 L",
+        "8 L"
+      ],
+      "answer": "5 L",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "CODE-0015",
+      "type": "code",
+      "language": "python",
+      "difficulty": "medium",
+      "topic": "List multiply",
+      "code": "x = [1,2,3]\nprint(x*2)",
+      "expected_output": "[1, 2, 3, 1, 2, 3]",
+      "explanation": "Expected output explained for List multiply in python."
+    },
+    {
+      "id": "CODE-0094",
+      "type": "code",
+      "language": "js",
+      "difficulty": "hard",
+      "topic": "Closure",
+      "code": "function make(){ var x=0; return function(){ x++; return x;} } var f=make(); console.log(f()); console.log(f());",
+      "expected_output": "1\n2",
+      "explanation": "Expected output explained for Closure in js."
+    },
+    {
+      "id": "APT-0086",
+      "type": "aptitude",
+      "difficulty": "easy",
+      "topic": "Ratio",
+      "question": "Pipe A fills a tank in 20 h and B in 18 h. With a leakage that empties 48 of tank per hour, how long to fill?",
+      "options": [
+        "11.8 h",
+        "12 h",
+        "10.8 h",
+        "12.8 h"
+      ],
+      "answer": "11.8 h",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "CODE-0019",
+      "type": "code",
+      "language": "python",
+      "difficulty": "medium",
+      "topic": "Comprehension",
+      "code": "lst = [i*i for i in range(4)]\nprint(lst)",
+      "expected_output": "[0, 1, 4, 9]",
+      "explanation": "Expected output explained for Comprehension in python."
+    },
+    {
+      "id": "APT-0178",
+      "type": "aptitude",
+      "difficulty": "easy",
+      "topic": "Logarithms",
+      "question": "Pipe A fills a tank in 15 h and B in 30 h. With a leakage that empties 36 of tank per hour, how long to fill?",
+      "options": [
+        "13.85 h",
+        "14 h",
+        "12.85 h",
+        "14.85 h"
+      ],
+      "answer": "13.85 h",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0088",
+      "type": "aptitude",
+      "difficulty": "medium",
+      "topic": "Blood Relations",
+      "question": "Find the simple interest on ₹4000 at 5% per annum for 2 years.",
+      "options": [
+        "₹400",
+        "₹500",
+        "₹450",
+        "₹600"
+      ],
+      "answer": "₹400",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0146",
+      "type": "aptitude",
+      "difficulty": "medium",
+      "topic": "Percentages",
+      "question": "A shopkeeper marks an item 20% above cost price ₹250 and gives 15% discount on MRP. What is the net profit or loss percentage?",
+      "options": [
+        "2.0%",
+        "5%",
+        "10%",
+        "-5%"
+      ],
+      "answer": "2.0%",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0265",
+      "type": "aptitude",
+      "difficulty": "hard",
+      "topic": "Ratio",
+      "question": "Pipe A fills a tank in 20 h and B in 18 h. With a leakage that empties 60 of tank per hour, how long to fill?",
+      "options": [
+        "11.25 h",
+        "12 h",
+        "10.25 h",
+        "12.25 h"
+      ],
+      "answer": "11.25 h",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "CODE-0062",
+      "type": "code",
+      "language": "cpp",
+      "difficulty": "hard",
+      "topic": "Refs & Scope",
+      "code": "#include <bits/stdc++.h>\nusing namespace std;\nint main(){int x=10; int &r=x; r+=5; {int x=r; x+=5; cout<<x<<\" \";} cout<<x; }",
+      "expected_output": "20 15",
+      "explanation": "Expected output explained for Refs & Scope in cpp.",
+      "options": [
+        "20 15",
+        "0",
+        "1",
+        "error"
+      ]
+    },
+    {
+      "id": "APT-0275",
+      "type": "aptitude",
+      "difficulty": "hard",
+      "topic": "Calendar",
+      "question": "Divide ₹600 in the ratio 4:3:2.",
+      "options": [
+        "₹266, ₹200, ₹133",
+        "₹600, ₹600, ₹600",
+        "₹700, ₹500, ₹600",
+        "₹900, ₹500, ₹400"
+      ],
+      "answer": "₹266, ₹200, ₹133",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0085",
+      "type": "aptitude",
+      "difficulty": "hard",
+      "topic": "Puzzles",
+      "question": "A price increases from ₹400 to ₹520. What is the percentage increase?",
+      "options": [
+        "30%",
+        "32%",
+        "25%",
+        "20%"
+      ],
+      "answer": "30%",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "CODE-0088",
+      "type": "code",
+      "language": "js",
+      "difficulty": "hard",
+      "topic": "Hoisting",
+      "code": "console.log(a); var a = 5; // ?",
+      "expected_output": "undefined",
+      "explanation": "Expected output explained for Hoisting in js.",
+      "options": [
+        "undefined",
+        "0",
+        "1",
+        "error"
+      ]
+    },
+    {
+      "id": "APT-0200",
+      "type": "aptitude",
+      "difficulty": "medium",
+      "topic": "Data Interpretation",
+      "question": "A 30 L mixture has milk and water in 5:4. How much water (in L) should be added to make it 4:3?",
+      "options": [
+        "8 L",
+        "9 L",
+        "10 L",
+        "11 L"
+      ],
+      "answer": "8 L",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0273",
+      "type": "aptitude",
+      "difficulty": "hard",
+      "topic": "Simple Interest",
+      "question": "A price increases from ₹250 to ₹280. What is the percentage increase?",
+      "options": [
+        "12%",
+        "14%",
+        "7%",
+        "2%"
+      ],
+      "answer": "12%",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0182",
+      "type": "aptitude",
+      "difficulty": "hard",
+      "topic": "Permutation & Combination",
+      "question": "A shopkeeper marks an item 10% above cost price ₹250 and gives 5% discount on MRP. What is the net profit or loss percentage?",
+      "options": [
+        "4.5%",
+        "5%",
+        "10%",
+        "-5%"
+      ],
+      "answer": "4.5%",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0163",
+      "type": "aptitude",
+      "difficulty": "medium",
+      "topic": "Syllogism",
+      "question": "Find the simple interest on ₹4000 at 6% per annum for 4 years.",
+      "options": [
+        "₹960",
+        "₹1060",
+        "₹1010",
+        "₹1160"
+      ],
+      "answer": "₹960",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0241",
+      "type": "aptitude",
+      "difficulty": "medium",
+      "topic": "Series",
+      "question": "Pipe A fills a tank in 20 h and B in 18 h. With a leakage that empties 60 of tank per hour, how long to fill?",
+      "options": [
+        "11.25 h",
+        "12 h",
+        "10.25 h",
+        "12.25 h"
+      ],
+      "answer": "11.25 h",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "CODE-0057",
+      "type": "code",
+      "language": "c",
+      "difficulty": "easy",
+      "topic": "Sizeof",
+      "code": "#include <stdio.h>\nint main(){char s[] = \"hi\"; printf(\"%d\", sizeof(s)); return 0;}",
+      "expected_output": "3",
+      "explanation": "Expected output explained for Sizeof in c.",
+      "options": [
+        "3",
+        "0",
+        "1",
+        "error"
+      ]
+    },
+    {
+      "id": "APT-0010",
+      "type": "aptitude",
+      "difficulty": "hard",
+      "topic": "Syllogism",
+      "question": "A shopkeeper marks an item 25% above cost price ₹500 and gives 20% discount on MRP. What is the net profit or loss percentage?",
+      "options": [
+        "0%",
+        "5%",
+        "10%",
+        "-5%"
+      ],
+      "answer": "0%",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "CODE-0036",
+      "type": "code",
+      "language": "python",
+      "difficulty": "easy",
+      "topic": "Generator",
+      "code": "g = (i for i in range(3))\nprint(next(g))\nprint(next(g))",
+      "expected_output": "0\n1",
+      "explanation": "Expected output explained for Generator in python."
+    },
+    {
+      "id": "APT-0131",
+      "type": "aptitude",
+      "difficulty": "medium",
+      "topic": "Pipes & Cisterns",
+      "question": "A 30 L mixture has milk and water in 5:4. How much water (in L) should be added to make it 2:1?",
+      "options": [
+        "9 L",
+        "10 L",
+        "11 L",
+        "12 L"
+      ],
+      "answer": "9 L",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "CODE-0030",
+      "type": "code",
+      "language": "python",
+      "difficulty": "hard",
+      "topic": "Variable shadow",
+      "code": "x = 5\ndef f():\n    x = 3\nf()\nprint(x)",
+      "expected_output": "5",
+      "explanation": "Expected output explained for Variable shadow in python.",
+      "options": [
+        "5",
+        "0",
+        "1",
+        "error"
+      ]
+    },
+    {
+      "id": "CODE-0009",
+      "type": "code",
+      "language": "python",
+      "difficulty": "hard",
+      "topic": "Mutable default",
+      "code": "def f(x, acc=[]):\n    acc.append(x)\n    return acc\nprint(f(1))\nprint(f(2, []))\nprint(f(3))",
+      "expected_output": "[1]\n[2]\n[1, 3]",
+      "explanation": "Expected output explained for Mutable default in python."
+    },
+    {
+      "id": "APT-0081",
+      "type": "aptitude",
+      "difficulty": "hard",
+      "topic": "Data Interpretation",
+      "question": "Find the simple interest on ₹2000 at 5% per annum for 4 years.",
+      "options": [
+        "₹400",
+        "₹500",
+        "₹450",
+        "₹600"
+      ],
+      "answer": "₹400",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0029",
+      "type": "aptitude",
+      "difficulty": "easy",
+      "topic": "Profit & Loss",
+      "question": "A shopkeeper marks an item 10% above cost price ₹100 and gives 5% discount on MRP. What is the net profit or loss percentage?",
+      "options": [
+        "4.5%",
+        "5%",
+        "10%",
+        "-5%"
+      ],
+      "answer": "4.5%",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0188",
+      "type": "aptitude",
+      "difficulty": "medium",
+      "topic": "Ratio",
+      "question": "A price increases from ₹500 to ₹650. What is the percentage increase?",
+      "options": [
+        "30%",
+        "32%",
+        "25%",
+        "20%"
+      ],
+      "answer": "30%",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0240",
+      "type": "aptitude",
+      "difficulty": "medium",
+      "topic": "Logical Reasoning",
+      "question": "A car covers 60 km at 50 km/h and returns at 50 km/h. What is the average speed for the whole trip? (rounded to 2 decimals if needed)",
+      "options": [
+        "50.0 km/h",
+        "52.0 km/h",
+        "49.0 km/h",
+        "47.0 km/h"
+      ],
+      "answer": "50.0 km/h",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "CODE-0038",
+      "type": "code",
+      "language": "python",
+      "difficulty": "hard",
+      "topic": "Tuple immut",
+      "code": "t = (1,2)\n# t[0]=3 -> error",
+      "expected_output": "TypeError",
+      "explanation": "Expected output explained for Tuple immut in python."
+    },
+    {
+      "id": "APT-0169",
+      "type": "aptitude",
+      "difficulty": "medium",
+      "topic": "Simple Interest",
+      "question": "Divide ₹1800 in the ratio 2:3:5.",
+      "options": [
+        "₹360, ₹540, ₹900",
+        "₹600, ₹600, ₹600",
+        "₹700, ₹500, ₹600",
+        "₹900, ₹500, ₹400"
+      ],
+      "answer": "₹360, ₹540, ₹900",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0264",
+      "type": "aptitude",
+      "difficulty": "medium",
+      "topic": "Syllogism",
+      "question": "A 40 L mixture has milk and water in 5:4. How much water (in L) should be added to make it 4:3?",
+      "options": [
+        "8 L",
+        "9 L",
+        "10 L",
+        "11 L"
+      ],
+      "answer": "8 L",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "CODE-0083",
+      "type": "code",
+      "language": "java",
+      "difficulty": "hard",
+      "topic": "Post pre",
+      "code": "public class Main{ public static void main(String[] args){ int x=5; int y = x++ + ++x; System.out.print(y + \" \" + x);} }",
+      "expected_output": "12 7",
+      "explanation": "Expected output explained for Post pre in java.",
+      "options": [
+        "12 7",
+        "0",
+        "1",
+        "error"
+      ]
+    },
+    {
+      "id": "APT-0246",
+      "type": "aptitude",
+      "difficulty": "medium",
+      "topic": "Pipes & Cisterns",
+      "question": "A shopkeeper marks an item 20% above cost price ₹250 and gives 15% discount on MRP. What is the net profit or loss percentage?",
+      "options": [
+        "2.0%",
+        "5%",
+        "10%",
+        "-5%"
+      ],
+      "answer": "2.0%",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0044",
+      "type": "aptitude",
+      "difficulty": "medium",
+      "topic": "Algebra",
+      "question": "Find the simple interest on ₹4000 at 5% per annum for 3 years.",
+      "options": [
+        "₹600",
+        "₹700",
+        "₹650",
+        "₹800"
+      ],
+      "answer": "₹600",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0263",
+      "type": "aptitude",
+      "difficulty": "hard",
+      "topic": "Ratio",
+      "question": "A car covers 60 km at 50 km/h and returns at 50 km/h. What is the average speed for the whole trip? (rounded to 2 decimals if needed)",
+      "options": [
+        "50.0 km/h",
+        "52.0 km/h",
+        "49.0 km/h",
+        "47.0 km/h"
+      ],
+      "answer": "50.0 km/h",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0017",
+      "type": "aptitude",
+      "difficulty": "easy",
+      "topic": "Permutation & Combination",
+      "question": "A shopkeeper marks an item 20% above cost price ₹80 and gives 15% discount on MRP. What is the net profit or loss percentage?",
+      "options": [
+        "2.0%",
+        "5%",
+        "10%",
+        "-5%"
+      ],
+      "answer": "2.0%",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0111",
+      "type": "aptitude",
+      "difficulty": "hard",
+      "topic": "Ratio",
+      "question": "A shopkeeper marks an item 10% above cost price ₹500 and gives 5% discount on MRP. What is the net profit or loss percentage?",
+      "options": [
+        "4.5%",
+        "5%",
+        "10%",
+        "-5%"
+      ],
+      "answer": "4.5%",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0043",
+      "type": "aptitude",
+      "difficulty": "hard",
+      "topic": "Blood Relations",
+      "question": "A 20 L mixture has milk and water in 3:2. How much water (in L) should be added to make it 2:1?",
+      "options": [
+        "9 L",
+        "10 L",
+        "11 L",
+        "12 L"
+      ],
+      "answer": "9 L",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0239",
+      "type": "aptitude",
+      "difficulty": "medium",
+      "topic": "Permutation & Combination",
+      "question": "A car covers 200 km at 80 km/h and returns at 40 km/h. What is the average speed for the whole trip? (rounded to 2 decimals if needed)",
+      "options": [
+        "53.33 km/h",
+        "55.33 km/h",
+        "52.33 km/h",
+        "50.33 km/h"
+      ],
+      "answer": "53.33 km/h",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0274",
+      "type": "aptitude",
+      "difficulty": "medium",
+      "topic": "Percentages",
+      "question": "Divide ₹1200 in the ratio 2:3:5.",
+      "options": [
+        "₹240, ₹360, ₹600",
+        "₹600, ₹600, ₹600",
+        "₹700, ₹500, ₹600",
+        "₹900, ₹500, ₹400"
+      ],
+      "answer": "₹240, ₹360, ₹600",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0136",
+      "type": "aptitude",
+      "difficulty": "medium",
+      "topic": "Syllogism",
+      "question": "Find the simple interest on ₹3000 at 4% per annum for 4 years.",
+      "options": [
+        "₹480",
+        "₹580",
+        "₹530",
+        "₹680"
+      ],
+      "answer": "₹480",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0272",
+      "type": "aptitude",
+      "difficulty": "medium",
+      "topic": "Permutation & Combination",
+      "question": "Pipe A fills a tank in 20 h and B in 18 h. With a leakage that empties 48 of tank per hour, how long to fill?",
+      "options": [
+        "11.8 h",
+        "12 h",
+        "10.8 h",
+        "12.8 h"
+      ],
+      "answer": "11.8 h",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0058",
+      "type": "aptitude",
+      "difficulty": "medium",
+      "topic": "Calendar",
+      "question": "A 50 L mixture has milk and water in 3:2. How much water (in L) should be added to make it 4:3?",
+      "options": [
+        "2 L",
+        "3 L",
+        "4 L",
+        "5 L"
+      ],
+      "answer": "2 L",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "CODE-0010",
+      "type": "code",
+      "language": "python",
+      "difficulty": "hard",
+      "topic": "Mutable default",
+      "code": "def f(x, acc=[]):\n    acc.append(x)\n    return acc\nprint(f(1))\nprint(f(2, []))\nprint(f(3))",
+      "expected_output": "[1]\n[2]\n[1, 3]",
+      "explanation": "Expected output explained for Mutable default in python."
+    },
+    {
+      "id": "CODE-0013",
+      "type": "code",
+      "language": "python",
+      "difficulty": "hard",
+      "topic": "List multiply",
+      "code": "x = [1,2,3]\nprint(x*2)",
+      "expected_output": "[1, 2, 3, 1, 2, 3]",
+      "explanation": "Expected output explained for List multiply in python."
+    },
+    {
+      "id": "APT-0266",
+      "type": "aptitude",
+      "difficulty": "hard",
+      "topic": "Ratio",
+      "question": "Pipe A fills a tank in 12 h and B in 24 h. With a leakage that empties 36 of tank per hour, how long to fill?",
+      "options": [
+        "10.29 h",
+        "11 h",
+        "9.29 h",
+        "11.29 h"
+      ],
+      "answer": "10.29 h",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "CODE-0049",
+      "type": "code",
+      "language": "c",
+      "difficulty": "easy",
+      "topic": "Operator",
+      "code": "#include <stdio.h>\nint main(){int a=3,b=4; printf(\"%d\", a + b * a - b); return 0;}",
+      "expected_output": "11",
+      "explanation": "Expected output explained for Operator in c.",
+      "options": [
+        "11",
+        "0",
+        "1",
+        "error"
+      ]
+    },
+    {
+      "id": "CODE-0063",
+      "type": "code",
+      "language": "cpp",
+      "difficulty": "medium",
+      "topic": "Refs & Scope",
+      "code": "#include <bits/stdc++.h>\nusing namespace std;\nint main(){int x=10; int &r=x; r+=5; {int x=r; x+=5; cout<<x<<\" \";} cout<<x; }",
+      "expected_output": "20 15",
+      "explanation": "Expected output explained for Refs & Scope in cpp.",
+      "options": [
+        "20 15",
+        "0",
+        "1",
+        "error"
+      ]
+    },
+    {
+      "id": "CODE-0120",
+      "type": "code",
+      "language": "python",
+      "difficulty": "easy",
+      "topic": "Loop",
+      "code": "for i in range(5):\n    pass\nprint(5)",
+      "expected_output": "5",
+      "explanation": "Loop completes and prints n."
+    },
+    {
+      "id": "APT-0019",
+      "type": "aptitude",
+      "difficulty": "hard",
+      "topic": "Ratio",
+      "question": "Find the simple interest on ₹5000 at 7% per annum for 3 years.",
+      "options": [
+        "₹1050",
+        "₹1150",
+        "₹1100",
+        "₹1250"
+      ],
+      "answer": "₹1050",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0049",
+      "type": "aptitude",
+      "difficulty": "medium",
+      "topic": "Profit & Loss",
+      "question": "A car covers 120 km at 80 km/h and returns at 30 km/h. What is the average speed for the whole trip? (rounded to 2 decimals if needed)",
+      "options": [
+        "43.64 km/h",
+        "45.64 km/h",
+        "42.64 km/h",
+        "40.64 km/h"
+      ],
+      "answer": "43.64 km/h",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0061",
+      "type": "aptitude",
+      "difficulty": "medium",
+      "topic": "Mixtures",
+      "question": "Divide ₹600 in the ratio 2:3:5.",
+      "options": [
+        "₹120, ₹180, ₹300",
+        "₹600, ₹600, ₹600",
+        "₹700, ₹500, ₹600",
+        "₹900, ₹500, ₹400"
+      ],
+      "answer": "₹120, ₹180, ₹300",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0090",
+      "type": "aptitude",
+      "difficulty": "hard",
+      "topic": "Logarithms",
+      "question": "A price increases from ₹500 to ₹600. What is the percentage increase?",
+      "options": [
+        "20%",
+        "22%",
+        "15%",
+        "10%"
+      ],
+      "answer": "20%",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0069",
+      "type": "aptitude",
+      "difficulty": "easy",
+      "topic": "Logical Reasoning",
+      "question": "A shopkeeper marks an item 10% above cost price ₹100 and gives 5% discount on MRP. What is the net profit or loss percentage?",
+      "options": [
+        "4.5%",
+        "5%",
+        "10%",
+        "-5%"
+      ],
+      "answer": "4.5%",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0005",
+      "type": "aptitude",
+      "difficulty": "medium",
+      "topic": "Simple Interest",
+      "question": "Find the simple interest on ₹4000 at 5% per annum for 2 years.",
+      "options": [
+        "₹400",
+        "₹500",
+        "₹450",
+        "₹600"
+      ],
+      "answer": "₹400",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0129",
+      "type": "aptitude",
+      "difficulty": "easy",
+      "topic": "Mixtures",
+      "question": "A 40 L mixture has milk and water in 5:4. How much water (in L) should be added to make it 4:3?",
+      "options": [
+        "6 L",
+        "7 L",
+        "8 L",
+        "9 L"
+      ],
+      "answer": "6 L",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0196",
+      "type": "aptitude",
+      "difficulty": "hard",
+      "topic": "Profit & Loss",
+      "question": "Find the simple interest on ₹4000 at 4% per annum for 2 years.",
+      "options": [
+        "₹320",
+        "₹420",
+        "₹370",
+        "₹520"
+      ],
+      "answer": "₹320",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0047",
+      "type": "aptitude",
+      "difficulty": "hard",
+      "topic": "Pipes & Cisterns",
+      "question": "A 40 L mixture has milk and water in 5:4. How much water (in L) should be added to make it 4:3?",
+      "options": [
+        "3 L",
+        "4 L",
+        "5 L",
+        "6 L"
+      ],
+      "answer": "3 L",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0149",
+      "type": "aptitude",
+      "difficulty": "medium",
+      "topic": "Algebra",
+      "question": "Divide ₹600 in the ratio 2:3:5.",
+      "options": [
+        "₹120, ₹180, ₹300",
+        "₹600, ₹600, ₹600",
+        "₹700, ₹500, ₹600",
+        "₹900, ₹500, ₹400"
+      ],
+      "answer": "₹120, ₹180, ₹300",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0148",
+      "type": "aptitude",
+      "difficulty": "easy",
+      "topic": "Numbers",
+      "question": "The sum of ages of A and B is 45. If A is 5 times B, what is B's age?",
+      "options": [
+        "20",
+        "22",
+        "19",
+        "23"
+      ],
+      "answer": "20",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0113",
+      "type": "aptitude",
+      "difficulty": "medium",
+      "topic": "Algebra",
+      "question": "A price increases from ₹400 to ₹520. What is the percentage increase?",
+      "options": [
+        "30%",
+        "32%",
+        "25%",
+        "20%"
+      ],
+      "answer": "30%",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0267",
+      "type": "aptitude",
+      "difficulty": "easy",
+      "topic": "Numbers",
+      "question": "A 20 L mixture has milk and water in 5:4. How much water (in L) should be added to make it 4:3?",
+      "options": [
+        "10 L",
+        "11 L",
+        "12 L",
+        "13 L"
+      ],
+      "answer": "10 L",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "CODE-0032",
+      "type": "code",
+      "language": "python",
+      "difficulty": "hard",
+      "topic": "Generator",
+      "code": "g = (i for i in range(3))\nprint(next(g))\nprint(next(g))",
+      "expected_output": "0\n1",
+      "explanation": "Expected output explained for Generator in python."
+    },
+    {
+      "id": "APT-0048",
+      "type": "aptitude",
+      "difficulty": "hard",
+      "topic": "Series",
+      "question": "Find the simple interest on ₹2000 at 6% per annum for 2 years.",
+      "options": [
+        "₹240",
+        "₹340",
+        "₹290",
+        "₹440"
+      ],
+      "answer": "₹240",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0260",
+      "type": "aptitude",
+      "difficulty": "hard",
+      "topic": "Data Interpretation",
+      "question": "A car covers 60 km at 80 km/h and returns at 50 km/h. What is the average speed for the whole trip? (rounded to 2 decimals if needed)",
+      "options": [
+        "61.54 km/h",
+        "63.54 km/h",
+        "60.54 km/h",
+        "58.54 km/h"
+      ],
+      "answer": "61.54 km/h",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0162",
+      "type": "aptitude",
+      "difficulty": "easy",
+      "topic": "Blood Relations",
+      "question": "A 30 L mixture has milk and water in 5:4. How much water (in L) should be added to make it 3:2?",
+      "options": [
+        "10 L",
+        "11 L",
+        "12 L",
+        "13 L"
+      ],
+      "answer": "10 L",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0002",
+      "type": "aptitude",
+      "difficulty": "hard",
+      "topic": "Numbers",
+      "question": "The sum of ages of A and B is 30. If A is 5 times B, what is B's age?",
+      "options": [
+        "12",
+        "14",
+        "11",
+        "15"
+      ],
+      "answer": "12",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0076",
+      "type": "aptitude",
+      "difficulty": "hard",
+      "topic": "Ages",
+      "question": "Divide ₹600 in the ratio 2:3:5.",
+      "options": [
+        "₹120, ₹180, ₹300",
+        "₹600, ₹600, ₹600",
+        "₹700, ₹500, ₹600",
+        "₹900, ₹500, ₹400"
+      ],
+      "answer": "₹120, ₹180, ₹300",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0105",
+      "type": "aptitude",
+      "difficulty": "hard",
+      "topic": "Percentages",
+      "question": "A shopkeeper marks an item 25% above cost price ₹500 and gives 20% discount on MRP. What is the net profit or loss percentage?",
+      "options": [
+        "0%",
+        "5%",
+        "10%",
+        "-5%"
+      ],
+      "answer": "0%",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0079",
+      "type": "aptitude",
+      "difficulty": "medium",
+      "topic": "Percentages",
+      "question": "A car covers 120 km at 50 km/h and returns at 40 km/h. What is the average speed for the whole trip? (rounded to 2 decimals if needed)",
+      "options": [
+        "44.44 km/h",
+        "46.44 km/h",
+        "43.44 km/h",
+        "41.44 km/h"
+      ],
+      "answer": "44.44 km/h",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0026",
+      "type": "aptitude",
+      "difficulty": "easy",
+      "topic": "Series",
+      "question": "A car covers 60 km at 50 km/h and returns at 30 km/h. What is the average speed for the whole trip? (rounded to 2 decimals if needed)",
+      "options": [
+        "37.5 km/h",
+        "39.5 km/h",
+        "36.5 km/h",
+        "34.5 km/h"
+      ],
+      "answer": "37.5 km/h",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0141",
+      "type": "aptitude",
+      "difficulty": "hard",
+      "topic": "Pipes & Cisterns",
+      "question": "A price increases from ₹1200 to ₹1500. What is the percentage increase?",
+      "options": [
+        "25%",
+        "27%",
+        "20%",
+        "15%"
+      ],
+      "answer": "25%",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0231",
+      "type": "aptitude",
+      "difficulty": "easy",
+      "topic": "Syllogism",
+      "question": "A shopkeeper marks an item 10% above cost price ₹250 and gives 5% discount on MRP. What is the net profit or loss percentage?",
+      "options": [
+        "4.5%",
+        "5%",
+        "10%",
+        "-5%"
+      ],
+      "answer": "4.5%",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0190",
+      "type": "aptitude",
+      "difficulty": "easy",
+      "topic": "Blood Relations",
+      "question": "The sum of ages of A and B is 54. If A is 5 times B, what is B's age?",
+      "options": [
+        "24",
+        "26",
+        "23",
+        "27"
+      ],
+      "answer": "24",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0236",
+      "type": "aptitude",
+      "difficulty": "easy",
+      "topic": "Numbers",
+      "question": "A shopkeeper marks an item 10% above cost price ₹80 and gives 5% discount on MRP. What is the net profit or loss percentage?",
+      "options": [
+        "4.5%",
+        "5%",
+        "10%",
+        "-5%"
+      ],
+      "answer": "4.5%",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0226",
+      "type": "aptitude",
+      "difficulty": "easy",
+      "topic": "Syllogism",
+      "question": "Divide ₹900 in the ratio 2:3:5.",
+      "options": [
+        "₹180, ₹270, ₹450",
+        "₹600, ₹600, ₹600",
+        "₹700, ₹500, ₹600",
+        "₹900, ₹500, ₹400"
+      ],
+      "answer": "₹180, ₹270, ₹450",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0294",
+      "type": "aptitude",
+      "difficulty": "easy",
+      "topic": "Ratio",
+      "question": "Divide ₹1800 in the ratio 4:3:2.",
+      "options": [
+        "₹800, ₹600, ₹400",
+        "₹600, ₹600, ₹600",
+        "₹700, ₹500, ₹600",
+        "₹900, ₹500, ₹400"
+      ],
+      "answer": "₹800, ₹600, ₹400",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0018",
+      "type": "aptitude",
+      "difficulty": "easy",
+      "topic": "Time Speed Distance",
+      "question": "A 40 L mixture has milk and water in 3:2. How much water (in L) should be added to make it 3:2?",
+      "options": [
+        "2 L",
+        "3 L",
+        "4 L",
+        "5 L"
+      ],
+      "answer": "2 L",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0096",
+      "type": "aptitude",
+      "difficulty": "easy",
+      "topic": "Simple Interest",
+      "question": "Pipe A fills a tank in 20 h and B in 30 h. With a leakage that empties 60 of tank per hour, how long to fill?",
+      "options": [
+        "15.0 h",
+        "15 h",
+        "14.0 h",
+        "16.0 h"
+      ],
+      "answer": "15.0 h",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "CODE-0078",
+      "type": "code",
+      "language": "java",
+      "difficulty": "medium",
+      "topic": "String imm",
+      "code": "public class Main{ public static void main(String[] args){ String s=\"hi\"; s.concat(\"!\"); System.out.print(s); s = s + \"!\"; System.out.print(\" \" + s);} }",
+      "expected_output": "hi hi!",
+      "explanation": "Expected output explained for String imm in java.",
+      "options": [
+        "hi hi!",
+        "0",
+        "1",
+        "error"
+      ]
+    },
+    {
+      "id": "APT-0203",
+      "type": "aptitude",
+      "difficulty": "easy",
+      "topic": "Series",
+      "question": "Divide ₹900 in the ratio 4:3:2.",
+      "options": [
+        "₹400, ₹300, ₹200",
+        "₹600, ₹600, ₹600",
+        "₹700, ₹500, ₹600",
+        "₹900, ₹500, ₹400"
+      ],
+      "answer": "₹400, ₹300, ₹200",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0155",
+      "type": "aptitude",
+      "difficulty": "medium",
+      "topic": "Simple Interest",
+      "question": "A car covers 60 km at 50 km/h and returns at 50 km/h. What is the average speed for the whole trip? (rounded to 2 decimals if needed)",
+      "options": [
+        "50.0 km/h",
+        "52.0 km/h",
+        "49.0 km/h",
+        "47.0 km/h"
+      ],
+      "answer": "50.0 km/h",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0040",
+      "type": "aptitude",
+      "difficulty": "easy",
+      "topic": "Ages",
+      "question": "The sum of ages of A and B is 30. If A is 2 times B, what is B's age?",
+      "options": [
+        "10",
+        "12",
+        "9",
+        "13"
+      ],
+      "answer": "10",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0269",
+      "type": "aptitude",
+      "difficulty": "medium",
+      "topic": "Blood Relations",
+      "question": "Divide ₹600 in the ratio 4:3:2.",
+      "options": [
+        "₹266, ₹200, ₹133",
+        "₹600, ₹600, ₹600",
+        "₹700, ₹500, ₹600",
+        "₹900, ₹500, ₹400"
+      ],
+      "answer": "₹266, ₹200, ₹133",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0139",
+      "type": "aptitude",
+      "difficulty": "easy",
+      "topic": "Pipes & Cisterns",
+      "question": "The sum of ages of A and B is 30. If A is 4 times B, what is B's age?",
+      "options": [
+        "10",
+        "12",
+        "9",
+        "13"
+      ],
+      "answer": "10",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "CODE-0033",
+      "type": "code",
+      "language": "python",
+      "difficulty": "medium",
+      "topic": "Generator",
+      "code": "g = (i for i in range(3))\nprint(next(g))\nprint(next(g))",
+      "expected_output": "0\n1",
+      "explanation": "Expected output explained for Generator in python."
+    },
+    {
+      "id": "APT-0290",
+      "type": "aptitude",
+      "difficulty": "easy",
+      "topic": "Puzzles",
+      "question": "A 50 L mixture has milk and water in 3:2. How much water (in L) should be added to make it 3:2?",
+      "options": [
+        "4 L",
+        "5 L",
+        "6 L",
+        "7 L"
+      ],
+      "answer": "4 L",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "CODE-0086",
+      "type": "code",
+      "language": "js",
+      "difficulty": "medium",
+      "topic": "Hoisting",
+      "code": "console.log(a); var a = 5; // ?",
+      "expected_output": "undefined",
+      "explanation": "Expected output explained for Hoisting in js.",
+      "options": [
+        "undefined",
+        "0",
+        "1",
+        "error"
+      ]
+    },
+    {
+      "id": "APT-0020",
+      "type": "aptitude",
+      "difficulty": "easy",
+      "topic": "Profit & Loss",
+      "question": "A 40 L mixture has milk and water in 7:3. How much water (in L) should be added to make it 3:2?",
+      "options": [
+        "6 L",
+        "7 L",
+        "8 L",
+        "9 L"
+      ],
+      "answer": "6 L",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0050",
+      "type": "aptitude",
+      "difficulty": "easy",
+      "topic": "Ages",
+      "question": "Divide ₹900 in the ratio 3:2:1.",
+      "options": [
+        "₹450, ₹300, ₹150",
+        "₹600, ₹600, ₹600",
+        "₹700, ₹500, ₹600",
+        "₹900, ₹500, ₹400"
+      ],
+      "answer": "₹450, ₹300, ₹150",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0110",
+      "type": "aptitude",
+      "difficulty": "easy",
+      "topic": "Numbers",
+      "question": "A price increases from ₹250 to ₹287. What is the percentage increase?",
+      "options": [
+        "15%",
+        "17%",
+        "10%",
+        "5%"
+      ],
+      "answer": "15%",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0041",
+      "type": "aptitude",
+      "difficulty": "hard",
+      "topic": "Time Speed Distance",
+      "question": "A 30 L mixture has milk and water in 5:4. How much water (in L) should be added to make it 3:2?",
+      "options": [
+        "2 L",
+        "3 L",
+        "4 L",
+        "5 L"
+      ],
+      "answer": "2 L",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0249",
+      "type": "aptitude",
+      "difficulty": "hard",
+      "topic": "Set Theory",
+      "question": "Pipe A fills a tank in 15 h and B in 30 h. With a leakage that empties 60 of tank per hour, how long to fill?",
+      "options": [
+        "12.0 h",
+        "12 h",
+        "11.0 h",
+        "13.0 h"
+      ],
+      "answer": "12.0 h",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "CODE-0102",
+      "type": "code",
+      "language": "python",
+      "difficulty": "easy",
+      "topic": "Arithmetic",
+      "code": "a = 4\nb = 1\nprint(a + b)",
+      "expected_output": "5",
+      "explanation": "Simple addition.",
+      "options": [
+        "5",
+        "4",
+        "3",
+        "3"
+      ]
+    },
+    {
+      "id": "APT-0126",
+      "type": "aptitude",
+      "difficulty": "medium",
+      "topic": "Set Theory",
+      "question": "The sum of ages of A and B is 45. If A is 2 times B, what is B's age?",
+      "options": [
+        "15",
+        "17",
+        "14",
+        "18"
+      ],
+      "answer": "15",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0082",
+      "type": "aptitude",
+      "difficulty": "easy",
+      "topic": "Probability",
+      "question": "Divide ₹900 in the ratio 4:3:2.",
+      "options": [
+        "₹400, ₹300, ₹200",
+        "₹600, ₹600, ₹600",
+        "₹700, ₹500, ₹600",
+        "₹900, ₹500, ₹400"
+      ],
+      "answer": "₹400, ₹300, ₹200",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "CODE-0111",
+      "type": "code",
+      "language": "python",
+      "difficulty": "easy",
+      "topic": "Arithmetic",
+      "code": "a = 0\nb = 6\nprint(a + b)",
+      "expected_output": "6",
+      "explanation": "Simple addition.",
+      "options": [
+        "6",
+        "0",
+        "6",
+        "-6"
+      ]
+    },
+    {
+      "id": "APT-0257",
+      "type": "aptitude",
+      "difficulty": "medium",
+      "topic": "Calendar",
+      "question": "A car covers 120 km at 40 km/h and returns at 30 km/h. What is the average speed for the whole trip? (rounded to 2 decimals if needed)",
+      "options": [
+        "34.29 km/h",
+        "36.29 km/h",
+        "33.29 km/h",
+        "31.29 km/h"
+      ],
+      "answer": "34.29 km/h",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0193",
+      "type": "aptitude",
+      "difficulty": "hard",
+      "topic": "Pipes & Cisterns",
+      "question": "A car covers 200 km at 40 km/h and returns at 50 km/h. What is the average speed for the whole trip? (rounded to 2 decimals if needed)",
+      "options": [
+        "44.44 km/h",
+        "46.44 km/h",
+        "43.44 km/h",
+        "41.44 km/h"
+      ],
+      "answer": "44.44 km/h",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "CODE-0072",
+      "type": "code",
+      "language": "cpp",
+      "difficulty": "easy",
+      "topic": "Vector ref",
+      "code": "#include <bits/stdc++.h>\nusing namespace std;\nint main(){vector<int> v{1,2,3}; for(auto &x:v) x+=1; for(auto x:v) cout<<x; }",
+      "expected_output": "234",
+      "explanation": "Expected output explained for Vector ref in cpp.",
+      "options": [
+        "234",
+        "0",
+        "1",
+        "error"
+      ]
+    },
+    {
+      "id": "APT-0212",
+      "type": "aptitude",
+      "difficulty": "easy",
+      "topic": "Time Speed Distance",
+      "question": "Pipe A fills a tank in 15 h and B in 18 h. With a leakage that empties 36 of tank per hour, how long to fill?",
+      "options": [
+        "10.59 h",
+        "11 h",
+        "9.59 h",
+        "11.59 h"
+      ],
+      "answer": "10.59 h",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0027",
+      "type": "aptitude",
+      "difficulty": "hard",
+      "topic": "Simple Interest",
+      "question": "Pipe A fills a tank in 15 h and B in 30 h. With a leakage that empties 48 of tank per hour, how long to fill?",
+      "options": [
+        "12.63 h",
+        "13 h",
+        "11.63 h",
+        "13.63 h"
+      ],
+      "answer": "12.63 h",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "CODE-0043",
+      "type": "code",
+      "language": "c",
+      "difficulty": "hard",
+      "topic": "Pre/Post",
+      "code": "#include <stdio.h>\nint main(){\n int a=5; printf(\"%d \", a++); printf(\"%d\", ++a); return 0; }",
+      "expected_output": "5 7",
+      "explanation": "Expected output explained for Pre/Post in c.",
+      "options": [
+        "5 7",
+        "0",
+        "1",
+        "error"
+      ]
+    },
+    {
+      "id": "APT-0218",
+      "type": "aptitude",
+      "difficulty": "hard",
+      "topic": "Logarithms",
+      "question": "A price increases from ₹800 to ₹840. What is the percentage increase?",
+      "options": [
+        "5%",
+        "7%",
+        "0%",
+        "-5%"
+      ],
+      "answer": "5%",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "CODE-0023",
+      "type": "code",
+      "language": "python",
+      "difficulty": "easy",
+      "topic": "Comprehension",
+      "code": "lst = [i*i for i in range(4)]\nprint(lst)",
+      "expected_output": "[0, 1, 4, 9]",
+      "explanation": "Expected output explained for Comprehension in python."
+    },
+    {
+      "id": "APT-0135",
+      "type": "aptitude",
+      "difficulty": "easy",
+      "topic": "Probability",
+      "question": "A price increases from ₹250 to ₹280. What is the percentage increase?",
+      "options": [
+        "12%",
+        "14%",
+        "7%",
+        "2%"
+      ],
+      "answer": "12%",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0222",
+      "type": "aptitude",
+      "difficulty": "medium",
+      "topic": "Time Speed Distance",
+      "question": "Divide ₹1200 in the ratio 2:3:5.",
+      "options": [
+        "₹240, ₹360, ₹600",
+        "₹600, ₹600, ₹600",
+        "₹700, ₹500, ₹600",
+        "₹900, ₹500, ₹400"
+      ],
+      "answer": "₹240, ₹360, ₹600",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0238",
+      "type": "aptitude",
+      "difficulty": "easy",
+      "topic": "Geometry",
+      "question": "The sum of ages of A and B is 36. If A is 4 times B, what is B's age?",
+      "options": [
+        "12",
+        "14",
+        "11",
+        "15"
+      ],
+      "answer": "12",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0270",
+      "type": "aptitude",
+      "difficulty": "easy",
+      "topic": "Mixtures",
+      "question": "A price increases from ₹800 to ₹840. What is the percentage increase?",
+      "options": [
+        "5%",
+        "7%",
+        "0%",
+        "-5%"
+      ],
+      "answer": "5%",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0128",
+      "type": "aptitude",
+      "difficulty": "medium",
+      "topic": "Pipes & Cisterns",
+      "question": "A shopkeeper marks an item 25% above cost price ₹500 and gives 20% discount on MRP. What is the net profit or loss percentage?",
+      "options": [
+        "0%",
+        "5%",
+        "10%",
+        "-5%"
+      ],
+      "answer": "0%",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "CODE-0103",
+      "type": "code",
+      "language": "python",
+      "difficulty": "easy",
+      "topic": "Arithmetic",
+      "code": "a = 0\nb = 5\nprint(a + b)",
+      "expected_output": "5",
+      "explanation": "Simple addition.",
+      "options": [
+        "5",
+        "0",
+        "5",
+        "-5"
+      ]
+    },
+    {
+      "id": "APT-0030",
+      "type": "aptitude",
+      "difficulty": "hard",
+      "topic": "Ages",
+      "question": "A shopkeeper marks an item 20% above cost price ₹500 and gives 15% discount on MRP. What is the net profit or loss percentage?",
+      "options": [
+        "2.0%",
+        "5%",
+        "10%",
+        "-5%"
+      ],
+      "answer": "2.0%",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0230",
+      "type": "aptitude",
+      "difficulty": "hard",
+      "topic": "Pipes & Cisterns",
+      "question": "A 50 L mixture has milk and water in 5:4. How much water (in L) should be added to make it 4:3?",
+      "options": [
+        "9 L",
+        "10 L",
+        "11 L",
+        "12 L"
+      ],
+      "answer": "9 L",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "CODE-0047",
+      "type": "code",
+      "language": "c",
+      "difficulty": "medium",
+      "topic": "Pre/Post",
+      "code": "#include <stdio.h>\nint main(){\n int a=5; printf(\"%d \", a++); printf(\"%d\", ++a); return 0; }",
+      "expected_output": "5 7",
+      "explanation": "Expected output explained for Pre/Post in c.",
+      "options": [
+        "5 7",
+        "0",
+        "1",
+        "error"
+      ]
+    },
+    {
+      "id": "APT-0197",
+      "type": "aptitude",
+      "difficulty": "medium",
+      "topic": "Time Speed Distance",
+      "question": "A 20 L mixture has milk and water in 7:3. How much water (in L) should be added to make it 4:3?",
+      "options": [
+        "4 L",
+        "5 L",
+        "6 L",
+        "7 L"
+      ],
+      "answer": "4 L",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "APT-0289",
+      "type": "aptitude",
+      "difficulty": "hard",
+      "topic": "Ratio",
+      "question": "Find the simple interest on ₹2000 at 6% per annum for 3 years.",
+      "options": [
+        "₹360",
+        "₹460",
+        "₹410",
+        "₹560"
+      ],
+      "answer": "₹360",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "CODE-0075",
+      "type": "code",
+      "language": "java",
+      "difficulty": "hard",
+      "topic": "String imm",
+      "code": "public class Main{ public static void main(String[] args){ String s=\"hi\"; s.concat(\"!\"); System.out.print(s); s = s + \"!\"; System.out.print(\" \" + s);} }",
+      "expected_output": "hi hi!",
+      "explanation": "Expected output explained for String imm in java.",
+      "options": [
+        "hi hi!",
+        "0",
+        "1",
+        "error"
+      ]
+    },
+    {
+      "id": "APT-0080",
+      "type": "aptitude",
+      "difficulty": "hard",
+      "topic": "Geometry",
+      "question": "The sum of ages of A and B is 30. If A is 4 times B, what is B's age?",
+      "options": [
+        "6",
+        "8",
+        "5",
+        "9"
+      ],
+      "answer": "6",
+      "explanation": "Standard aptitude solution."
+    },
+    {
+      "id": "CODE-0071",
+      "type": "code",
+      "language": "cpp",
+      "difficulty": "hard",
+      "topic": "Vector ref",
+      "code": "#include <bits/stdc++.h>\nusing namespace std;\nint main(){vector<int> v{1,2,3}; for(auto &x:v) x+=1; for(auto x:v) cout<<x; }",
+      "expected_output": "234",
+      "explanation": "Expected output explained for Vector ref in cpp.",
+      "options": [
+        "234",
+        "0",
+        "1",
+        "error"
+      ]
+    }
+  ]
+}
